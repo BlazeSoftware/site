@@ -38,7 +38,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run prettier && npm run stylelint && npm run test && npm run build",
+      "pre-commit": "npm run prettier && npm run stylelint && git add . && npm run test && npm run build",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
