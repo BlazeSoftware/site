@@ -39,13 +39,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run prettier && npm run stylelint && git add . && npm run test && npm run build",
+      "pre-commit": "npm run prettier && npm run stylelint && git add . && npm run test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "devDependencies": {
     "@blaze/atoms": "^9.2.0",
-    "@blaze/css": "^8.0.0",
+    "@blaze/css": "^9.0.1",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@stencil/core": "^1.12.2",
