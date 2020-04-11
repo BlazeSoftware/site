@@ -115,7 +115,8 @@ export class InstallPage {
         <blaze-demo
           demo={false}
           language="html"
-          code={`<script src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms.js"></script>`}
+          code={`<script type="module" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.js"></script>`}
         />
 
         <p class="c-paragraph">
