@@ -44,7 +44,7 @@
     }
   },
   "devDependencies": {
-    "@blaze/atoms": "^9.2.0",
+    "@blaze/atoms": "^11.0.1",
     "@blaze/css": "^9.0.1",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
