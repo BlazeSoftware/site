@@ -21,13 +21,17 @@ export class LandingPage {
           It provides great structure for building websites quickly with a scalable and maintainable foundation.
         </p>
 
-        <div class="c-homepage-buttons u-large u-letter-box-large u-centered">
+        <div class="u-large u-letter-box-small u-centered">
           <stencil-route-link url="/getting-started/install" anchorClass="c-button c-button--brand c-button--rounded">
             <span class="c-button__icon-left" aria-hidden>
               <i class="fas fa-graduation-cap" />
             </span>
             Documentation
           </stencil-route-link>
+        </div>
+
+        <div class="u-letter-box-xsmall u-centered">
+          <sponsor-button />
         </div>
 
         <div class="o-container o-container--super u-centered">
