@@ -71,7 +71,7 @@ export class ComponentsTabs {
           </thead>
           <tbody class="c-table__body">
             <tr class="c-table__row">
-              <td class="c-table__cell">currentTab(): Promise&lt;number></td>
+              <td class="c-table__cell">currentTab(): Promise&lt;number&gt;</td>
               <td class="c-table__cell">returns the index of the current tab</td>
             </tr>
             <tr class="c-table__row">

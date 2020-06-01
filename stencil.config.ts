@@ -25,7 +25,6 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      serviceWorker: null,
       prerenderConfig: './prerender.config.ts',
       baseUrl: 'https://www.blazeui.com',
     },

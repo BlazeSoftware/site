@@ -88,7 +88,7 @@ export class ObjectsDrawers {
             </tr>
             <tr class="c-table__row">
               <td class="c-table__cell">isOpen()</td>
-              <td class="c-table__cell">Promise&lt;true or false></td>
+              <td class="c-table__cell">Promise&lt;true or false&gt;</td>
             </tr>
           </tbody>
         </table>

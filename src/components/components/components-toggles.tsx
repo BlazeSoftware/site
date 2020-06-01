@@ -54,7 +54,7 @@ export class ComponentsToggles {
           </thead>
           <tbody class="c-table__body">
             <tr class="c-table__row">
-              <td class="c-table__cell">isToggled(): Promise&lt;boolean></td>
+              <td class="c-table__cell">isToggled(): Promise&lt;boolean&gt;</td>
               <td class="c-table__cell">returns whether the checkbox is checked or not</td>
             </tr>
           </tbody>

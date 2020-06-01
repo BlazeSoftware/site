@@ -65,7 +65,7 @@ export class ComponentsAlerts {
               <td class="c-table__cell">Hides the alert</td>
             </tr>
             <tr class="c-table__row">
-              <td class="c-table__cell">isOpen(): Promise&lt;boolean></td>
+              <td class="c-table__cell">isOpen(): Promise&lt;boolean&gt;</td>
               <td class="c-table__cell">Returns whether the alert is visible or not</td>
             </tr>
           </tbody>

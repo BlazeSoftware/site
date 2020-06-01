@@ -44,7 +44,7 @@ export class ComponentsPagination {
           </thead>
           <tbody class="c-table__body">
             <tr class="c-table__row">
-              <td class="c-table__cell">currentPage(): Promise&lt;number></td>
+              <td class="c-table__cell">currentPage(): Promise&lt;number&gt;</td>
               <td class="c-table__cell">returns currently selected page index</td>
             </tr>
           </tbody>

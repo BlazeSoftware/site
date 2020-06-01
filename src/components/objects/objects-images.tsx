@@ -40,19 +40,19 @@ export class ObjectsImages {
           </thead>
           <tbody class="c-table__body">
             <tr class="c-table__row">
-              <td class="c-table__cell">src="&lt;url>"</td>
+              <td class="c-table__cell">src="&lt;url&gt;"</td>
               <td class="c-table__cell">URL to a specific image</td>
             </tr>
             <tr class="c-table__row">
-              <td class="c-table__cell">alt="&lt;alt text>"</td>
+              <td class="c-table__cell">alt="&lt;alt text&gt;"</td>
               <td class="c-table__cell">URL to a specific image</td>
             </tr>
             <tr class="c-table__row">
-              <td class="c-table__cell">user="&lt;username>"</td>
+              <td class="c-table__cell">user="&lt;username&gt;"</td>
               <td class="c-table__cell">To choose a random photo from a specific user</td>
             </tr>
             <tr class="c-table__row">
-              <td class="c-table__cell">filter="&lt;search term>"</td>
+              <td class="c-table__cell">filter="&lt;search term&gt;"</td>
               <td class="c-table__cell">
                 To narrow the selection of a random photo by supply a list of comma-separated search terms
               </td>
@@ -65,11 +65,11 @@ export class ObjectsImages {
               </td>
             </tr>
             <tr class="c-table__row">
-              <td class="c-table__cell">width="&lt;number>"</td>
+              <td class="c-table__cell">width="&lt;number&gt;"</td>
               <td class="c-table__cell">The width of the image to fetch</td>
             </tr>
             <tr class="c-table__row">
-              <td class="c-table__cell">height="&lt;number>"</td>
+              <td class="c-table__cell">height="&lt;number&gt;"</td>
               <td class="c-table__cell">The height of the image to fetch</td>
             </tr>
           </tbody>
