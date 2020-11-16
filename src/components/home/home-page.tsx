@@ -30,10 +30,6 @@ export class LandingPage {
           </stencil-route-link>
         </div>
 
-        <div class="u-letter-box-xsmall u-centered">
-          <sponsor-button />
-        </div>
-
         <div class="o-container o-container--super u-centered">
           <div class="o-grid o-grid--wrap o-grid--xsmall-full o-grid--small-full o-grid--medium-full">
             <div class="o-grid__cell o-grid__cell--width-33 u-window-box-super">
