@@ -159,8 +159,6 @@ export namespace Components {
         "close": () => Promise<void>;
         "show": () => Promise<void>;
     }
-    interface SponsorButton {
-    }
     interface UtilsAlignment {
         "name": string;
     }
@@ -490,12 +488,6 @@ declare global {
         prototype: HTMLSiteNavElement;
         new (): HTMLSiteNavElement;
     };
-    interface HTMLSponsorButtonElement extends Components.SponsorButton, HTMLStencilElement {
-    }
-    var HTMLSponsorButtonElement: {
-        prototype: HTMLSponsorButtonElement;
-        new (): HTMLSponsorButtonElement;
-    };
     interface HTMLUtilsAlignmentElement extends Components.UtilsAlignment, HTMLStencilElement {
     }
     var HTMLUtilsAlignmentElement: {
@@ -579,7 +571,6 @@ declare global {
         "page-template": HTMLPageTemplateElement;
         "site-header": HTMLSiteHeaderElement;
         "site-nav": HTMLSiteNavElement;
-        "sponsor-button": HTMLSponsorButtonElement;
         "utils-alignment": HTMLUtilsAlignmentElement;
         "utils-boxing": HTMLUtilsBoxingElement;
         "utils-elevation": HTMLUtilsElevationElement;
@@ -739,8 +730,6 @@ declare namespace LocalJSX {
     }
     interface SiteNav {
     }
-    interface SponsorButton {
-    }
     interface UtilsAlignment {
         "name"?: string;
     }
@@ -809,7 +798,6 @@ declare namespace LocalJSX {
         "page-template": PageTemplate;
         "site-header": SiteHeader;
         "site-nav": SiteNav;
-        "sponsor-button": SponsorButton;
         "utils-alignment": UtilsAlignment;
         "utils-boxing": UtilsBoxing;
         "utils-elevation": UtilsElevation;
@@ -873,7 +861,6 @@ declare module "@stencil/core" {
             "page-template": LocalJSX.PageTemplate & JSXBase.HTMLAttributes<HTMLPageTemplateElement>;
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;
             "site-nav": LocalJSX.SiteNav & JSXBase.HTMLAttributes<HTMLSiteNavElement>;
-            "sponsor-button": LocalJSX.SponsorButton & JSXBase.HTMLAttributes<HTMLSponsorButtonElement>;
             "utils-alignment": LocalJSX.UtilsAlignment & JSXBase.HTMLAttributes<HTMLUtilsAlignmentElement>;
             "utils-boxing": LocalJSX.UtilsBoxing & JSXBase.HTMLAttributes<HTMLUtilsBoxingElement>;
             "utils-elevation": LocalJSX.UtilsElevation & JSXBase.HTMLAttributes<HTMLUtilsElevationElement>;
