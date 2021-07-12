@@ -82,11 +82,6 @@ export class SiteNav {
                         <i class="fas fa-code" /> View Source
                       </a>
                     </li>
-                    <li class="c-list__item u-letter-box u-letter-box-xsmall">
-                      <a class="c-link" href="https://github.com/sponsors/BlazeSoftware">
-                        <i class="far fa-heart" style={{ color: '#ea4aaa' }} /> Sponsor
-                      </a>
-                    </li>
                   </ul>
                 </section>
                 {allRoutes.map((area) => this.navSection(area))}
