@@ -12,8 +12,8 @@ export class BlazeSite {
       <div class="u-text">
         <site-header />
         <section class="o-container o-container--large u-pillar-box-medium">
-          <stencil-router scrollTopOffset={0}>
-            <stencil-route-switch>
+          <stencil-router>
+            <stencil-route-switch scrollTopOffset={0}>
               <stencil-route url="/" component="home-page" exact={true} />
               {allRoutes.map(({ routes }) =>
                 routes.map((route) => (

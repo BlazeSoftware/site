@@ -34,38 +34,28 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "stylelint": "stylelint \"src/**/*.scss\" --fix",
-    "prettier": "prettier --write './**/*'"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettier && npm run stylelint && git add . && npm run test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "stylelint": "stylelint \"src/**/*.scss\" --fix"
   },
   "devDependencies": {
-    "@blaze/atoms": "^11.0.3",
-    "@blaze/css": "^9.2.0",
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@stencil/core": "^2.4.0",
-    "@stencil/postcss": "^2.0.0",
-    "@stencil/router": "^1.0.1",
-    "@stencil/sass": "^1.4.1",
-    "@types/cssnano": "^4.0.0",
-    "@types/jest": "26.0.20",
-    "@types/puppeteer": "5.4.3",
-    "cssnano": "^4.1.10",
-    "husky": "^5.0.9",
+    "@blaze/atoms": "11.0.3",
+    "@blaze/css": "9.2.0",
+    "@stencil/core": "2.6.0",
+    "@stencil/postcss": "2.0.0",
+    "@stencil/router": "1.0.1",
+    "@stencil/sass": "1.4.1",
+    "@types/cssnano": "4.0.1",
+    "@types/jest": "26.0.24",
+    "@types/puppeteer": "5.4.4",
+    "cssnano": "5.0.6",
     "jest": "26.6.3",
     "jest-cli": "26.6.3",
-    "postcss": "^8.2.6",
-    "prettier": "^2.2.1",
-    "puppeteer": "7.1.0",
-    "stylelint": "^13.10.0",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-scss": "^3.19.0",
-    "workbox-build": "^6.1.0"
-  }
+    "postcss": "8.3.5",
+    "puppeteer": "10.1.0",
+    "stylelint": "13.13.1",
+    "stylelint-config-rational-order": "0.1.2",
+    "stylelint-config-standard": "22.0.0",
+    "stylelint-scss": "3.19.0",
+    "workbox-build": "6.1.5"
+  },
+  "dependencies": {}
 }
