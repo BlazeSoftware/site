@@ -112,6 +112,23 @@ site-nav {
     transition: opacity 0.3s;
   }
 
+  @include screen-and-up(super) {
+    .c-overlay[aria-hidden],
+    .c-button--close,
+    .o-page-header__button {
+      display: none;
+    }
+
+    aside.o-drawer.o-drawer--left {
+      transform: translateX(-1%);
+      visibility: visible;
+    }
+
+    .o-drawer.u-highest {
+      box-shadow: none;
+    }
+  }
+
   aside.o-drawer {
     transition: transform 0.3s;
   }
