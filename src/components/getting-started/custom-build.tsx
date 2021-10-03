@@ -27,8 +27,8 @@ export class CustomBuild {
     return (
       <page-template name={this.name}>
         <p class="c-paragraph">
-          You may want to theme or override so much of Blaze that you should really build a customised version. The best
-          approach is to grab the code from GitHub, change the variables and mixins and build the toolkit yourself.
+          You may want to theme or override so much of Blaze that you should really build a customised version. The best approach is to grab the code from GitHub, change the
+          variables and mixins and build the toolkit yourself.
         </p>
 
         {[
@@ -46,7 +46,8 @@ export class CustomBuild {
                 <blaze-demo
                   language="bash"
                   demo={false}
-                  code={`git clone https://github.com/BlazeSoftware/blaze.git`}
+                  code={`git clone git@github.com:BlazeSoftware/css.git
+git clone git@github.com:BlazeSoftware/atoms.git`}
                 />
               </p>,
             ],
@@ -57,7 +58,7 @@ export class CustomBuild {
             body: [
               <p class="c-paragraph">Install all node modules:</p>,
               <p class="c-paragraph">
-                <blaze-demo language="bash" demo={false} code={`npm i`} />
+                <blaze-demo language="bash" demo={false} code={`nvm use && npm i`} />
               </p>,
             ],
           },
@@ -66,22 +67,11 @@ export class CustomBuild {
             subheading: 'Develop',
             body: [
               <p class="c-paragraph">Each pacakge should be developed independantly.</p>,
+              <p class="c-paragraph">You can make changes to the CSS and Atoms repos separately using the following command:</p>,
               <p class="c-paragraph">
-                You can make changes to the CSS, Atoms and Site separately using the following commands:
+                <blaze-demo language="bash" demo={false} code={`npm start`} />
               </p>,
-              <p class="c-paragraph">
-                <blaze-demo
-                  language="bash"
-                  demo={false}
-                  code={`npm run scss.dev
-npm run atoms.dev
-npm run site.dev`}
-                />
-              </p>,
-              <p class="c-paragraph">
-                There is a demo output per package, that will be served on localhost and will update automatically as
-                changes are detected.
-              </p>,
+              <p class="c-paragraph">There is a demo output per repo, that will be served on localhost and will update automatically as changes are detected.</p>,
             ],
           },
           {
@@ -91,36 +81,11 @@ npm run site.dev`}
               <p class="c-paragraph">Every component should have tests.</p>,
               <p class="c-paragraph">The CSS is linted and the Atoms are unit and snapshot tested.</p>,
               <p class="c-paragraph">
-                <blaze-demo
-                  language="bash"
-                  demo={false}
-                  code={`npm run scss.test
-npm run atoms.test`}
-                />
+                <blaze-demo language="bash" demo={false} code={`npm run test`} />
               </p>,
             ],
           },
-          {
-            heading: 'Step 5',
-            subheading: 'Commit',
-            body: [
-              <p class="c-paragraph">
-                Every change that is committed should have a committ message that follows the{' '}
-                <a class="c-link" href="https://www.conventionalcommits.org/">
-                  Conventional Commits
-                </a>{' '}
-                specification.
-              </p>,
-              <p class="c-paragraph">
-                To help construct good commit messages run the following command which will take you through a command
-                line prompt which will construct the message based on your answers.
-              </p>,
-              <p class="c-paragraph">
-                <blaze-demo language="bash" demo={false} code={`npm run commit`} />
-              </p>,
-            ],
-          },
-        ].map((step) => this.card(step))}
+        ].map(step => this.card(step))}
       </page-template>
     );
   }
