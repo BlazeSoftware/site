@@ -25,7 +25,7 @@ export class ComponentsAutocomplete {
     return (
       <page-template name={this.name}>
         <div class="u-letter-box-large">
-          <blaze-autocomplete placeholder="Enter some text..." onSearch={(e) => this.demoSearch(e)} />
+          <blaze-autocomplete placeholder="Enter some text..." onFilter={(e) => this.demoSearch(e)} />
         </div>
         <blaze-demo
           language="html"
@@ -75,7 +75,7 @@ export class ComponentsAutocomplete {
           </thead>
           <tbody class="c-table__body">
             <tr class="c-table__row">
-              <td class="c-table__cell">search: string</td>
+              <td class="c-table__cell">filter: string</td>
               <td class="c-table__cell">Triggered as the user types in the input passing the value of the text box</td>
             </tr>
             <tr class="c-table__row">
