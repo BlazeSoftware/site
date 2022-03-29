@@ -20,10 +20,10 @@ export class ComponentsCalendars {
           they affect the calendar.
         </p>
 
-        <blaze-demo language="html" code={`<blaze-calendar date="January 14, 2016"></blaze-calendar>`} />
+        <blaze-demo language="language-html" code={`<blaze-calendar date="January 14, 2016"></blaze-calendar>`} />
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-calendar">
   <button class="c-calendar__control c-calendar__control--prev-year">‹</button>
   <div class="c-calendar__header c-calendar__header--year">2016</div>

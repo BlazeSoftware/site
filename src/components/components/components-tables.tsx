@@ -15,7 +15,7 @@ export class ComponentTables {
         <h2 class="c-heading u-xlarge">Basic Table</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<table class="c-table">
   <caption class="c-table__caption">Basic table</caption>
   <thead class="c-table__head">
@@ -50,7 +50,7 @@ export class ComponentTables {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<table class="c-table c-table--striped">
   <caption class="c-table__caption">Striped rows</caption>
   <thead class="c-table__head">
@@ -85,7 +85,7 @@ export class ComponentTables {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<table class="c-table c-table--clickable">
   <caption class="c-table__caption">Clickable table with disabled row</caption>
   <thead class="c-table__head">
@@ -120,7 +120,7 @@ export class ComponentTables {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<table class="c-table">
   <caption class="c-table__caption">Clickable row, disabled row</caption>
   <thead class="c-table__head">
@@ -155,7 +155,7 @@ export class ComponentTables {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<table class="c-table c-table--condensed">
   <caption class="c-table__caption">Small table and text</caption>
   <thead class="c-table__head">
@@ -190,7 +190,7 @@ export class ComponentTables {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-table c-table--striped">
   <div class="c-table__caption">divs instead of trs ths tds</div>
   <div class="c-table__row c-table__row--heading">

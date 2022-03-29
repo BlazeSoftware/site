@@ -11,7 +11,7 @@ export class ComponentsAddresses {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-address>
   <blaze-address-heading>
     Address header
@@ -26,7 +26,7 @@ export class ComponentsAddresses {
           CSS
         </h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<address class="c-address">
   <span class="c-address__heading">Addresses</span>
   10010 The Street,

@@ -22,15 +22,15 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon-16x16.png">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#ee0202">
-  <link rel="preload" href="https://yandex.st/highlightjs/8.2/styles/github.min.css" as="style">
+
+  <link rel="preload" href="https://unpkg.com/@highlightjs/cdn-assets@11.5.0/styles/github.min.css" as="style">
   <link rel="preload" href="/build/app.css" as="style">
 
-  <link rel="stylesheet" href="https://yandex.st/highlightjs/8.2/styles/github.min.css">
+  <link href="https://unpkg.com/@highlightjs/cdn-assets@11.5.0/styles/github.min.css" rel="stylesheet">
   <link href="/build/app.css" rel="stylesheet">
 
   <title>Blaze UI - Framework-free open source UI toolkit</title>
-  <meta name="description"
-    content="Blaze is a framework-free open source UI toolkit. It provides great structure for building websites quickly with a scalable and maintainable foundation.">
+  <meta name="description" content="Blaze is a framework-free open source UI toolkit. It provides great structure for building websites quickly with a scalable and maintainable foundation.">
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="format-detection" content="telephone=no">
@@ -39,11 +39,22 @@
 
   <script type="module" src="/build/app.esm.js"></script>
   <script nomodule src="/build/app.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTTSQ2TRKC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WTTSQ2TRKC');
+  </script>
 </head>
 
 <body>
   <blaze-site></blaze-site>
-  <script id='highlightScript' async defer src="https://cdn.jsdelivr.net/highlight.js/8.6/highlight.min.js"></script>
+
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.5.0/highlight.min.js"></script>
 </body>
 
 </html>

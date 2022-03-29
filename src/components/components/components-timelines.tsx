@@ -15,7 +15,7 @@ export class ComponentsTimelines {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-timeline loading>
   <blaze-timeline-item left>Nothing</blaze-timeline-item>
   <blaze-timeline-item type="brand">
@@ -80,7 +80,7 @@ export class ComponentsTimelines {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ul class="o-timeline">
   <li class="c-timeline-item">
     <div class="c-timeline-item__body">
@@ -121,7 +121,7 @@ export class ComponentsTimelines {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ul class="o-timeline">
   <li class="c-timeline-item">
     <div class="c-timeline-item__body">
@@ -162,7 +162,7 @@ export class ComponentsTimelines {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ul class="o-timeline o-timeline--loading">
   <li class="c-timeline-item">
     <div class="c-timeline-item__body">
@@ -208,7 +208,7 @@ export class ComponentsTimelines {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ul class="o-timeline o-timeline--alternate o-timeline--loading">
   <li class="c-timeline-item c-timeline-item--left">
     <div class="c-timeline-item__body">

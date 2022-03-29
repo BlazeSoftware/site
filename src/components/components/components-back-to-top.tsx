@@ -13,7 +13,7 @@ export class ComponentsBackToTop {
         <p class="c-paragraph">Provides a back to top shortcut on long pages.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           demo={false}
           code={`<blaze-back-to-top position="left|center">
   <button class="c-button c-button--info">Go back to top</button>

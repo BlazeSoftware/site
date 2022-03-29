@@ -14,14 +14,14 @@ export class ComponentsRanges {
 
         <h2 class="c-heading u-xlarge">Basic Range</h2>
 
-        <blaze-demo language="html" code={`<input type="range" class="c-range">`} />
+        <blaze-demo language="language-html" code={`<input type="range" class="c-range">`} />
 
         <h2 id="colors" class="c-heading u-xlarge">
           Colors
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<input type="range" class="c-range">
 <input type="range" class="c-range c-range--brand">
 <input type="range" class="c-range c-range--info">

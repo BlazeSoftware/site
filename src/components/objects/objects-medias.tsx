@@ -15,7 +15,7 @@ export class ObjectsMedias {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <div class="c-card__item c-card__item--brand o-media">
     <div class="o-media__image">
@@ -32,7 +32,7 @@ export class ObjectsMedias {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <div class="c-card__item c-card__item--info o-media">
     <div class="o-media__body">
@@ -56,7 +56,7 @@ export class ObjectsMedias {
         <div class="o-grid o-grid--xsmall-full o-grid--small-full o-grid--medium-full o-grid--large-full">
           <div class="o-grid__cell o-grid__cell--width-33">
             <blaze-demo
-              language="html"
+              language="language-html"
               code={`<div class="c-card">
   <div class="c-card__item o-media">
     <div class="o-media__image o-media__image--bottom">
@@ -75,7 +75,7 @@ export class ObjectsMedias {
 
           <div class="o-grid__cell o-grid__cell--width-33">
             <blaze-demo
-              language="html"
+              language="language-html"
               code={`<div class="c-card">
   <div class="c-card__item o-media">
     <div class="o-media__image o-media__image--center">
@@ -94,7 +94,7 @@ export class ObjectsMedias {
 
           <div class="o-grid__cell o-grid__cell--width-33">
             <blaze-demo
-              language="html"
+              language="language-html"
               code={`<div class="c-card">
   <div class="c-card__item o-media">
     <div class="o-media__image o-media__image--top">

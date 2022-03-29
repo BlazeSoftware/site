@@ -16,10 +16,10 @@ export class ComponentsInputs {
           Text Input
         </h2>
 
-        <blaze-demo language="html" code={`<input class="c-field" placeholder="Type in here..." type="text" />`} />
-        <blaze-demo language="html" code={`<textarea class="c-field" placeholder="Type in here..."></textarea>`} />
+        <blaze-demo language="language-html" code={`<input class="c-field" placeholder="Type in here..." type="text" />`} />
+        <blaze-demo language="language-html" code={`<textarea class="c-field" placeholder="Type in here..."></textarea>`} />
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<select class="c-field">
   <option>Choose me...</option>
 </select>`}
@@ -30,21 +30,21 @@ export class ComponentsInputs {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<input class="c-field c-field--success" placeholder=".c-field--success" type="text">`}
         />
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<input class="c-field c-field--error" placeholder=".c-field--error" type="text">`}
         />
-        <blaze-demo language="html" code={`<input class="c-field" disabled placeholder="disabled" type="text">`} />
+        <blaze-demo language="language-html" code={`<input class="c-field" disabled placeholder="disabled" type="text">`} />
 
         <h2 id="icons" class="c-heading u-xlarge">
           Icons
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-field o-field--icon-left">
   <i class="far fa-calendar-alt c-icon"></i>
   <input class="c-field" type="text">
@@ -52,7 +52,7 @@ export class ComponentsInputs {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-field o-field--icon-right">
   <input class="c-field" type="text">
   <i class="fas fa-search c-icon"></i>
@@ -60,7 +60,7 @@ export class ComponentsInputs {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-field o-field--icon-left o-field--icon-right">
   <i class="fas fa-user c-icon u-color-brand"></i>
   <input class="c-field c-field--success" type="text">
@@ -72,12 +72,12 @@ export class ComponentsInputs {
           Sizes
         </h2>
 
-        <blaze-demo language="html" code={`<input class="c-field u-xsmall" placeholder=".u-xsmall" type="text">`} />
-        <blaze-demo language="html" code={`<input class="c-field u-small" placeholder=".u-small" type="text">`} />
-        <blaze-demo language="html" code={`<input class="c-field u-medium" placeholder=".u-medium" type="text">`} />
-        <blaze-demo language="html" code={`<input class="c-field u-large" placeholder=".u-large" type="text">`} />
-        <blaze-demo language="html" code={`<input class="c-field u-xlarge" placeholder=".u-xlarge" type="text">`} />
-        <blaze-demo language="html" code={`<input class="c-field u-super" placeholder=".u-super" type="text">`} />
+        <blaze-demo language="language-html" code={`<input class="c-field u-xsmall" placeholder=".u-xsmall" type="text">`} />
+        <blaze-demo language="language-html" code={`<input class="c-field u-small" placeholder=".u-small" type="text">`} />
+        <blaze-demo language="language-html" code={`<input class="c-field u-medium" placeholder=".u-medium" type="text">`} />
+        <blaze-demo language="language-html" code={`<input class="c-field u-large" placeholder=".u-large" type="text">`} />
+        <blaze-demo language="language-html" code={`<input class="c-field u-xlarge" placeholder=".u-xlarge" type="text">`} />
+        <blaze-demo language="language-html" code={`<input class="c-field u-super" placeholder=".u-super" type="text">`} />
 
         <h2 id="input-groups" class="c-heading u-xlarge">
           Input Groups
@@ -88,7 +88,7 @@ export class ComponentsInputs {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group">
   <div class="o-field">
     <input class="c-field" placeholder=".c-input-group">
@@ -111,7 +111,7 @@ export class ComponentsInputs {
           of the group.
         </p>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group">
   <div class="o-field">
     <input class="c-field" placeholder=".c-input-group">
@@ -130,7 +130,7 @@ export class ComponentsInputs {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group c-input-group--stacked">
   <div class="o-field">
     <input class="c-field" placeholder=".c-input-group">
@@ -149,7 +149,7 @@ export class ComponentsInputs {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group">
   <div class="o-field">
     <input class="c-field" placeholder=".c-input-group">
@@ -159,7 +159,7 @@ export class ComponentsInputs {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group">
   <button class="c-button c-button--brand">Action</button>
   <div class="o-field">
@@ -169,7 +169,7 @@ export class ComponentsInputs {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group">
   <button class="c-button c-button--brand">Action</button>
   <div class="o-field">
@@ -184,7 +184,7 @@ export class ComponentsInputs {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group c-input-group--rounded">
   <div class="o-field">
     <input class="c-field" placeholder=".c-input-group">
@@ -199,7 +199,7 @@ export class ComponentsInputs {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group c-input-group--rounded">
   <button class="c-button c-button--brand">Action</button>
   <div class="o-field">
@@ -210,7 +210,7 @@ export class ComponentsInputs {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group c-input-group--rounded-left">
   <button class="c-button c-button--brand">Action</button>
   <div class="o-field">
@@ -221,7 +221,7 @@ export class ComponentsInputs {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-input-group c-input-group--rounded-right">
   <button class="c-button c-button--brand">Action</button>
   <div class="o-field">
@@ -241,7 +241,7 @@ export class ComponentsInputs {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<label class="c-field c-field--choice">
   <input type="checkbox"> Tick the box
 </label>
@@ -263,7 +263,7 @@ export class ComponentsInputs {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<fieldset class="o-fieldset">
   <legend class="o-fieldset__legend">A group of controls</legend>
   <label class="c-field c-field--choice">
@@ -294,7 +294,7 @@ export class ComponentsInputs {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<fieldset class="o-fieldset" disabled>
   <legend class="o-fieldset__legend">A group of controls</legend>
   <label class="c-field c-field--choice">
@@ -321,7 +321,7 @@ export class ComponentsInputs {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-form-element">
   <label class="c-label" for="nickname">Nickname:</label>
   <input id="nickname" placeholder="Nickname" class="c-field">
@@ -337,7 +337,7 @@ export class ComponentsInputs {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<label class="c-label">
   Username:
   <input class="c-field c-field--label">
@@ -359,7 +359,7 @@ export class ComponentsInputs {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<fieldset class="o-fieldset">
   <legend class="o-fieldset__legend">And all together now!</legend>
   <div class="o-form-element">

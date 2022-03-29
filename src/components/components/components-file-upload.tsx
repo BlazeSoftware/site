@@ -12,7 +12,7 @@ export class ComponentsFileUpload {
       <page-template name={this.name}>
         <h3 class="c-heading">Basic file upload component</h3>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-file-upload>
   <button class="c-button c-button--info">Upload file</button>
 </blaze-file-upload>`}
@@ -20,7 +20,7 @@ export class ComponentsFileUpload {
         <h3 class="c-heading">Drop zone</h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-file-upload drop multiple>Drop to upload your files</blaze-file-upload>`}
         />
 
@@ -85,7 +85,7 @@ export class ComponentsFileUpload {
         </h2>
         <h3 class="c-heading">Basic</h3>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-file-upload">
   <button class="c-button c-button--info">Upload file</button>
   <input type="file" />
@@ -94,7 +94,7 @@ export class ComponentsFileUpload {
 
         <h3 class="c-heading">Drop zone</h3>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-file-upload c-file-upload--drop">
   Drop to upload your files
   <input type="file" />

@@ -12,7 +12,7 @@ export class ComponentsBreadcrumbs {
       <page-template name={this.name}>
         <p class="c-paragraph">Breadcrumbs are useful to indicate the navigational route into a website.</p>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-breadcrumbs aria-label="Breadcrumbs">
   <blaze-breadcrumb href="/">Home</blaze-breadcrumb>
   <blaze-breadcrumb href="/">Cars</blaze-breadcrumb>
@@ -23,7 +23,7 @@ export class ComponentsBreadcrumbs {
         />
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<nav aria-label="Breadcrumb">
   <ol class="c-breadcrumbs">
     <li class="c-breadcrumbs__crumb">

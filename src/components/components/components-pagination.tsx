@@ -10,7 +10,7 @@ export class ComponentsPagination {
   render() {
     return (
       <page-template name={this.name}>
-        <blaze-demo language="html" code={`<blaze-pagination pages="15" page="4"></blaze-pagination>`} />
+        <blaze-demo language="language-html" code={`<blaze-pagination pages="15" page="4"></blaze-pagination>`} />
 
         <h2 class="c-heading">Attributes</h2>
 
@@ -68,7 +68,7 @@ export class ComponentsPagination {
         </table>
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<nav class="c-pagination">
   <button class="c-pagination__control">‹</button>
   <div class="c-pagination__pages">

@@ -12,7 +12,7 @@ export class ComponentsAvatars {
       <page-template name={this.name}>
         <p class="c-paragraph">Avatars are useful for chat UIs, profile pictures and account photos.</p>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-avatar size="super"
               alt="placeholder"
               src="https://unsplash.it/200/?image=823"
@@ -59,7 +59,7 @@ export class ComponentsAvatars {
         </table>
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-avatar c-avatar u-super">
   <img class="c-avatar__img" alt="placeholder" src="http://placehold.it/1024x963/3B6DC6/FFF">
 </div>
@@ -83,7 +83,7 @@ export class ComponentsAvatars {
         <h2 class="c-heading">2 Images</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-avatar c-avatar u-super">
   <img class="c-avatar__img" alt="placeholder" src="http://placehold.it/1024x963/3B6DC6/FFF">
   <img class="c-avatar__img" alt="placeholder" src="http://placehold.it/1024x963/BADA55/FFF">
@@ -113,7 +113,7 @@ export class ComponentsAvatars {
         <h2 class="c-heading">Initials</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-avatar c-avatar u-super" data-text="GP"></div>
 <div class="c-avatar c-avatar u-xlarge" data-text="GP"></div>
 <div class="c-avatar c-avatar u-large" data-text="GP"></div>

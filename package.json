@@ -57,6 +57,5 @@
     "stylelint-config-standard": "25.0.0",
     "stylelint-scss": "4.2.0",
     "workbox-build": "6.5.2"
-  },
-  "dependencies": {}
+  }
 }

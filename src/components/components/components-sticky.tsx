@@ -18,7 +18,7 @@ export class ComponentsSticky {
           <button class="c-button c-button--info">Sticky button</button>
         </blaze-sticky>
 
-        <blaze-demo demo={false} language="html" code={`<blaze-sticky top="30">...</blaze-sticky>`} />
+        <blaze-demo demo={false} language="language-html" code={`<blaze-sticky top="30">...</blaze-sticky>`} />
 
         <h2 class="c-heading">Attributes</h2>
 

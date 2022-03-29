@@ -20,7 +20,7 @@ export class ComponentsMenus {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="menu" class="c-card c-card--menu">
   <button role="menuitem" class="c-card__control">Menu 1</button>
   <button role="menuitem" class="c-card__control">Menu 2</button>
@@ -43,7 +43,7 @@ export class ComponentsMenus {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="menu" class="c-card c-card--menu u-high c-card--grouped">
   <button role="menuitem" class="c-card__control">Menu 1</button>
   <button role="menuitem" class="c-card__control">Menu 2</button>
@@ -69,7 +69,7 @@ export class ComponentsMenus {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="menu" class="c-card c-card--menu">
   <button role="menuitem" class="c-card__control c-card__control--brand">Menu 1</button>
   <button role="menuitem" class="c-card__control c-card__control--brand">Menu 2</button>
@@ -92,7 +92,7 @@ export class ComponentsMenus {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="menu" class="c-card c-card--menu u-high">
   <label role="menuitem" class="c-card__control c-field c-field--choice">
     <input type="checkbox"> Control 1

@@ -15,7 +15,7 @@ export class ComponentsCards {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-card>
   <blaze-image></blaze-image>
   <blaze-card-header>
@@ -44,7 +44,7 @@ export class ComponentsCards {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <div class="c-card__body">
     <p class="c-paragraph">Lorem ipsum dolor sit amet, feugiat corpora ex eam. Inciderint eloquentiam sea et.</p>
@@ -57,7 +57,7 @@ export class ComponentsCards {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <div role="separator" class="c-card__item c-card__item--divider">Header</div>
   <div class="c-card__item  ">
@@ -84,7 +84,7 @@ export class ComponentsCards {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <div class="c-card__item c-card__item--brand">Header</div>
   <div class="c-card__item c-card__item--info">
@@ -107,7 +107,7 @@ export class ComponentsCards {
         <p class="c-paragraph">Use the header, body and footer element classes to construct some nice cards.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <header class="c-card__header">
     <h2 class="c-heading">
@@ -137,7 +137,7 @@ export class ComponentsCards {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <header class="c-card__header">
     <h2 class="c-heading">
@@ -166,7 +166,7 @@ export class ComponentsCards {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <img alt="placeholder" class="o-image" src="https://source.unsplash.com/random/1024x500">
   <header class="c-card__header">
@@ -191,7 +191,7 @@ export class ComponentsCards {
           Card Items
         </h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <div class="c-card__item">Item 1</div>
   <div class="c-card__item">Item 2</div>
@@ -212,7 +212,7 @@ export class ComponentsCards {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card c-card--grouped">
   <div class="c-card__item">Item 1</div>
   <div class="c-card__item">Item 2</div>

@@ -23,7 +23,7 @@ export class UtilsAlignment {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="u-center-block fixed-height-demo">
   <div class="u-center-block__content">Hello Blaze</div>
 </div>`}
@@ -34,7 +34,7 @@ export class UtilsAlignment {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="u-center-block fixed-height-demo">
   <div class="u-center-block__content u-center-block__content--vertical">Hello Blaze</div>
 </div>`}
@@ -45,7 +45,7 @@ export class UtilsAlignment {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="u-center-block fixed-height-demo">
     <div class="u-center-block__content u-center-block__content--horizontal">Hello Blaze</div>
   </div>`}
@@ -61,7 +61,7 @@ export class UtilsAlignment {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="u-center-block fixed-height-demo">
     <div class="u-absolute-center">Hello Blaze</div>
   </div>`}
@@ -77,7 +77,7 @@ export class UtilsAlignment {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="u-center-block fixed-height-demo">
     <div class="u-centered">Hello Blaze</div>
   </div>`}

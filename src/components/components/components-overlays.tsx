@@ -16,7 +16,7 @@ export class ComponentsOverlays {
 
         <h2 class="c-heading u-xlarge">Basic Overlay</h2>
 
-        <blaze-demo language="html" classes="modal-demo" code={`<div class="c-overlay c-overlay--visible"></div>`} />
+        <blaze-demo language="language-html" classes="modal-demo" code={`<div class="c-overlay c-overlay--visible"></div>`} />
 
         <h2 id="variations" class="c-heading u-xlarge">
           Variations
@@ -41,7 +41,7 @@ export class ComponentsOverlays {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div class="c-overlay c-overlay--visible c-overlay--dismissible"></div>`}
         />
@@ -56,7 +56,7 @@ export class ComponentsOverlays {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div class="c-overlay c-overlay--visible c-overlay--dismissible c-overlay--transparent"></div>`}
         />

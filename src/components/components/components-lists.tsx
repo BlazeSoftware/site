@@ -13,7 +13,7 @@ export class ComponentsLists {
         <p class="c-paragraph">Ordered, un-ordered, indented, Blaze has you covered when it comes to making lists.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ul class="c-list">
   <li class="c-list__item">Lorem ipsum dolor sit amet</li>
   <li class="c-list__item">Consectetur adipiscing elit</li>
@@ -39,7 +39,7 @@ export class ComponentsLists {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ol class="c-list c-list--ordered">
   <li class="c-list__item">Lorem ipsum dolor sit amet</li>
   <li class="c-list__item">Consectetur adipiscing elit</li>
@@ -74,7 +74,7 @@ export class ComponentsLists {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ul class="c-list c-list--unstyled">
   <li class="c-list__item">This list is unstyled</li>
   <li class="c-list__item">Consectetur adipiscing elit</li>
@@ -99,7 +99,7 @@ export class ComponentsLists {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<ul class="c-list c-list--inline">
   <li class="c-list__item">Lorem</li>
   <li class="c-list__item">ipsum</li>

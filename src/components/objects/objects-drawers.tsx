@@ -13,7 +13,7 @@ export class ObjectsDrawers {
         <p class="c-paragraph">Slide in menus. Drawers provide a special layout for cards.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<blaze-drawer position="right" open>
   <blaze-card>
@@ -99,7 +99,7 @@ export class ObjectsDrawers {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--dismissible"></div>
 <aside aria-label="Demo drawer" aria-expanded class="o-drawer u-highest o-drawer--top o-drawer--visible">
@@ -137,7 +137,7 @@ export class ObjectsDrawers {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--dismissible"></div>
 <aside aria-label="Demo drawer" aria-expanded class="o-drawer u-highest o-drawer--left o-drawer--visible">
@@ -166,7 +166,7 @@ export class ObjectsDrawers {
           .o-drawer--bottom
         </h3>
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--dismissible"></div>
 <aside aria-label="Demo drawer" aria-expanded class="o-drawer u-highest o-drawer--bottom o-drawer--visible">
@@ -195,7 +195,7 @@ export class ObjectsDrawers {
           .o-drawer--right
         </h3>
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--dismissible"></div>
 <aside aria-label="Demo drawer" aria-expanded class="o-drawer u-highest o-drawer--right o-drawer--visible">

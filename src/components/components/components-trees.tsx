@@ -15,7 +15,7 @@ export class ComponentsTrees {
         <h2 class="c-heading u-xlarge">Expandable and Expanded</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="tree" class="c-tree">
   <button role="treeitem" aria-expanded="false" class="c-tree__item">Directory 1</button>
   <button role="treeitem" aria-expanded="false" class="c-tree__item">Directory 2</button>

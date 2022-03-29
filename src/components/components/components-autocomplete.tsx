@@ -28,7 +28,7 @@ export class ComponentsAutocomplete {
           <blaze-autocomplete placeholder="Enter some text..." onFilter={(e) => this.demoSearch(e)} />
         </div>
         <blaze-demo
-          language="html"
+          language="language-html"
           demo={false}
           code={`<blaze-autocomplete placeholder="Enter some text..."></blaze-autocomplete>`}
         />

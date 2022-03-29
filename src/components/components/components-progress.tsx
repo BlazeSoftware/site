@@ -11,7 +11,7 @@ export class ComponentsProgress {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-progress size="xsmall" rounded>
   <blaze-progress-bar value="10">
     10%
@@ -52,7 +52,7 @@ export class ComponentsProgress {
         <h2 class="c-heading">Stacked</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-progress>
   <blaze-progress-bar value="25">
     25%
@@ -76,7 +76,7 @@ export class ComponentsProgress {
         />
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-progress size="medium" rounded>
   <blaze-progress-bar min="10000" value="15000" max="20000" type="info">
     £15,000
@@ -123,7 +123,7 @@ export class ComponentsProgress {
 
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-progress">
   <div role="progressbar"
        aria-valuenow="35"
@@ -138,7 +138,7 @@ export class ComponentsProgress {
         <h2 class="c-heading u-xlarge">Rounded</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-progress c-progress--rounded">
   <div role="progressbar"
        aria-valuenow="35"
@@ -153,7 +153,7 @@ export class ComponentsProgress {
         <h2 class="c-heading u-xlarge">Colors and Sizes</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-progress u-xsmall">
   <div role="progressbar" aria-valuetext="15% complete" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"
     class="c-progress__bar">
@@ -200,7 +200,7 @@ export class ComponentsProgress {
         <h2 class="c-heading">Stacked</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-progress">
   <div role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;" class="c-progress__bar"></div>
   <div role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;" class="c-progress__bar c-progress__bar--brand"></div>

@@ -11,7 +11,7 @@ export class ExampleLogin {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<form class="o-container o-container--xsmall c-card u-high">
 <header class="c-card__header">
   <h2 class="c-heading">

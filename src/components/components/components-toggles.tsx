@@ -13,7 +13,7 @@ export class ComponentsToggles {
         <p class="c-paragraph">Checkboxes are pretty ugly. So let's make them pretty.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-toggle toggled>Default</blaze-toggle>
 <blaze-toggle toggled type="brand">Brand</blaze-toggle>
 <blaze-toggle toggled type="info">Info</blaze-toggle>
@@ -61,7 +61,7 @@ export class ComponentsToggles {
         </table>
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<label class="c-toggle">
   <input type="checkbox" checked>
   <div class="c-toggle__track">

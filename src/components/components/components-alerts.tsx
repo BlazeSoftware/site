@@ -11,7 +11,7 @@ export class ComponentsAlerts {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-alert open dismissible>Default</blaze-alert>
 <blaze-alert open dismissible type="brand">Brand</blaze-alert>
 <blaze-alert open dismissible type="info">Info</blaze-alert>
@@ -73,7 +73,7 @@ export class ComponentsAlerts {
 
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="alert" class="c-alert">
   <button class="c-button c-button--close">&times;</button>
   Default

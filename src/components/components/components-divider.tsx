@@ -13,7 +13,7 @@ export class ComponentsDivider {
         <p class="c-paragraph">When you want to visually separate sections of the page.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-divider>Hello, world</blaze-divider>
 <blaze-divider type="dashed">Dashed</blaze-divider>
 <blaze-divider type="dotted">Dotted</blaze-divider>`}

@@ -15,7 +15,7 @@ export class ComponentsBadges {
           for individual items.
         </p>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-badge>default</blaze-badge>
 <blaze-badge type="brand">brand</blaze-badge>
 <blaze-badge type="info">info</blaze-badge>
@@ -66,7 +66,7 @@ export class ComponentsBadges {
         </table>
 
         <h2 class="c-heading">CSS</h2>
-        <blaze-demo language="html" code={`<span class="c-badge">34 unread messages</span>`} />
+        <blaze-demo language="language-html" code={`<span class="c-badge">34 unread messages</span>`} />
         <h2 id="colors" class="c-heading u-xlarge">
           Colors
         </h2>
@@ -75,7 +75,7 @@ export class ComponentsBadges {
         <p class="c-paragraph">To use, add the color modifier class:</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="c-badge">Default</span>
 <span class="c-badge c-badge--brand">Brand</span>
 <span class="c-badge c-badge--info">Info</span>
@@ -93,7 +93,7 @@ export class ComponentsBadges {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="c-badge c-badge--rounded">Default</span>
 <span class="c-badge c-badge--rounded c-badge--brand">Brand</span>
 <span class="c-badge c-badge--rounded c-badge--info">Info</span>
@@ -111,7 +111,7 @@ export class ComponentsBadges {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="c-badge c-badge--rounded c-badge--ghost c-badge">Default</span>
 <span class="c-badge c-badge--rounded c-badge--ghost c-badge--brand">Brand</span>
 <span class="c-badge c-badge--rounded c-badge--ghost c-badge--info">Info</span>

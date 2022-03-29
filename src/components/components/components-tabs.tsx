@@ -16,7 +16,7 @@ export class ComponentsTabs {
 
         <h2 class="c-heading u-xlarge">Basic Tabs</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-tabs>
   <blaze-tab type="brand" header="One" open>This is tab one</blaze-tab>
   <blaze-tab disabled header="Two (disabled)">This is tab two</blaze-tab>
@@ -84,7 +84,7 @@ export class ComponentsTabs {
         <h2 class="c-heading u-xlarge">Basic Tabs</h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="tablist" class="c-tabs">
   <div class="c-tabs__nav">
     <div class="c-tabs__headings">
@@ -110,7 +110,7 @@ export class ComponentsTabs {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="tablist" class="c-tabs">
   <div class="c-tabs__nav">
     <div class="c-tabs__headings">
@@ -133,7 +133,7 @@ export class ComponentsTabs {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div role="tablist" class="c-tabs">
   <div class="c-tabs__nav">
     <div class="c-tabs__headings">

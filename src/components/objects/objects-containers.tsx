@@ -13,7 +13,7 @@ export class ObjectsContainers {
         <p class="c-paragraph">Containers provide media query screen width restrictions on your content.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           demo={false}
           code={`<div class="o-container o-container--xsmall"></div>
 <div class="o-container o-container--small"></div>

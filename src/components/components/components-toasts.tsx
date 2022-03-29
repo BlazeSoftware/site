@@ -18,7 +18,7 @@ export class ComponentsToasts {
 
         <blaze-demo
           classes="fixed-height-demo"
-          language="html"
+          language="language-html"
           code={`<blaze-alerts position="bottomright">
   <blaze-alert open dismissible type="brand">This is a toast</blaze-alert>
   <blaze-alert open dismissible type="info">Just for your information</blaze-alert>
@@ -64,7 +64,7 @@ export class ComponentsToasts {
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
           classes="fixed-height-demo"
-          language="html"
+          language="language-html"
           code={`<div aria-label="6 alerts" role="presentation" class="c-alerts c-alerts--bottomright">
   <div role="alert" class="c-alert">Default</div>
   <div role="alert" class="c-alert c-alert--brand">Brand</div>

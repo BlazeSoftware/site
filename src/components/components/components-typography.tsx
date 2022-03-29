@@ -34,7 +34,7 @@ export class ComponentsTypography {
 
         <p class="c-paragraph">
           <blaze-demo
-            language="html"
+            language="language-html"
             code={`<p class="c-paragraph">Use the paragraph class to style your....paragraphs!</p>`}
           />
         </p>
@@ -49,7 +49,7 @@ export class ComponentsTypography {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<a href="#" class="c-link">.c-link</a><br />
 <a href="#" class="c-link c-link--brand">brand</a><br />
 <a href="#" class="c-link c-link--info">info</a><br />
@@ -63,7 +63,7 @@ export class ComponentsTypography {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="u-gradient-text">Default gradient</div>
 <div class="u-gradient-text u-gradient-text--info">Information</div>
 <div class="u-gradient-text u-gradient-text--warning">Warning</div>
@@ -76,7 +76,7 @@ export class ComponentsTypography {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="u-text--highlight">To highlight text simply wrap the words with the highlight class</span>`}
         />
 
@@ -85,7 +85,7 @@ export class ComponentsTypography {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="u-text--loud">Sometimes you want to shout</div>
 <div class="u-text--quiet">other times you want to whisper</div>`}
         />
@@ -100,13 +100,13 @@ export class ComponentsTypography {
           <em>The tag must have a title attribute</em>:
         </p>
 
-        <blaze-demo language="html" code={`<abbr class="u-text--help" title="Help text">.u-text--help</abbr>`} />
+        <blaze-demo language="language-html" code={`<abbr class="u-text--help" title="Help text">.u-text--help</abbr>`} />
 
         <h3 id="monospaced" class="c-heading u-xlarge">
           Monospaced
         </h3>
 
-        <blaze-demo language="html" code={`<span class="u-text--mono">This class uses our mono font-family.</span>`} />
+        <blaze-demo language="language-html" code={`<span class="u-text--mono">This class uses our mono font-family.</span>`} />
 
         <h3 id="kbd" class="c-heading u-xlarge">
           Keys on a keyboard
@@ -117,7 +117,7 @@ export class ComponentsTypography {
           keyboard class:
         </p>
 
-        <blaze-demo language="html" code={`<kbd class="u-kbd">.u-kbd</kbd>`} />
+        <blaze-demo language="language-html" code={`<kbd class="u-kbd">.u-kbd</kbd>`} />
 
         <h3 id="code" class="c-heading u-xlarge">
           Inline and Multiline code
@@ -134,7 +134,7 @@ export class ComponentsTypography {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           demo={false}
           code={`<code class="u-code u-code--multiline">
   hello
@@ -147,7 +147,7 @@ export class ComponentsTypography {
         </h3>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blockquote class="u-blockquote">
   <div class="u-blockquote__body">
     To quote use the following code to make it stand out from the rest of the page

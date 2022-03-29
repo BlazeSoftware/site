@@ -11,7 +11,7 @@ export class ObjectsModals {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<blaze-modal open dismissible>
   <blaze-card>
@@ -115,7 +115,7 @@ export class ObjectsModals {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--visible"></div>
 <div role="dialog" class="o-modal o-modal--visible">
@@ -147,7 +147,7 @@ export class ObjectsModals {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--visible"></div>
 <div role="dialog" class="o-modal o-modal--ghost o-modal--visible">
@@ -178,7 +178,7 @@ export class ObjectsModals {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--visible"></div>
 <div role="dialog" class="o-modal o-modal--visible">
@@ -218,7 +218,7 @@ export class ObjectsModals {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           classes="modal-demo"
           code={`<div aria-hidden class="c-overlay c-overlay--visible"></div>
 <div role="dialog" class="o-modal o-modal--full o-modal--visible">

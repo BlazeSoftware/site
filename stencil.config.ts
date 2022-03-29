@@ -4,7 +4,7 @@ import { postcss } from '@stencil/postcss';
 import cssnano from 'cssnano';
 
 export const config: Config = {
-  globalStyle: 'src/scss/site.scss',
+  globalStyle: 'src/global/app.scss',
   taskQueue: 'async',
   plugins: [
     sass(),

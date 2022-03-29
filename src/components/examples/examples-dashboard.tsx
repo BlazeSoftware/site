@@ -13,7 +13,7 @@ export class ExampleDashboard {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="c-card">
   <div class="o-grid o-grid--no-gutter o-grid--small-full c-card__body">
     <div class="o-grid__cell o-grid__cell--width-33">

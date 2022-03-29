@@ -29,7 +29,7 @@ export class ComponentsCounter {
         </blaze-alerts>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-counter
   class="u-super u-text--mono"
   auto-start

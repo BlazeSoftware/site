@@ -11,7 +11,7 @@ export class ComponentsAccordions {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-accordion>
   <blaze-accordion-pane open header="Click me">
     This is an expanded accordion
@@ -40,7 +40,7 @@ export class ComponentsAccordions {
         </p>
         <blaze-demo
           demo={false}
-          language="html"
+          language="language-html"
           code={`<div class="c-card c-card--accordion">
   <button role="heading" aria-expanded="true" class="c-card__control">
     Heading one

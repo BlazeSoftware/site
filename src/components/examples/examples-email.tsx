@@ -11,7 +11,7 @@ export class ExampleEmail {
     return (
       <page-template name={this.name}>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--no-gutter u-high">
   <nav class="o-grid__cell o-grid__cell--width-20 c-nav">
     <a href="#" class="c-nav__item c-nav__item--brand">

@@ -25,7 +25,7 @@ export class ObjectsImages {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<blaze-image alt="random placeholder image" user="erondu" width="1024" height="768" filter="mountains" likes></blaze-image>`}
         />
 
@@ -77,7 +77,7 @@ export class ObjectsImages {
 
         <h2 class="c-heading">CSS</h2>
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<img alt="random placeholder image" class="o-image" src="https://source.unsplash.com/random" />`}
         />
       </page-template>

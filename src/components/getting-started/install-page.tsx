@@ -1,4 +1,4 @@
-import { h, Component, Prop, State } from '@stencil/core';
+import { h, Component, Prop } from '@stencil/core';
 
 @Component({
   tag: 'install-page',
@@ -6,33 +6,6 @@ import { h, Component, Prop, State } from '@stencil/core';
 export class InstallPage {
   @Prop()
   name: string;
-
-  @State()
-  cssVersion: string;
-
-  @State()
-  atomsVersion: string;
-
-  async componentDidLoad() {
-    try {
-      const corsAnywhere = 'https://cors-anywhere.herokuapp.com/https://registry.npmjs.org/@blaze';
-      const cssRes = await fetch(`${corsAnywhere}/css`, {
-        mode: 'cors',
-      });
-      const atomsRes = await fetch(`${corsAnywhere}/atoms`, {
-        mode: 'cors',
-      });
-
-      const cssData = await cssRes.json();
-      const atomsData = await atomsRes.json();
-
-      this.cssVersion = cssData['dist-tags'].latest;
-      this.atomsVersion = atomsData['dist-tags'].latest;
-    } catch {
-      this.cssVersion = 'x.x.x';
-      this.atomsVersion = 'x.x.x';
-    }
-  }
 
   render() {
     return (
@@ -52,17 +25,9 @@ export class InstallPage {
 
         <blaze-demo
           demo={false}
-          language="html"
+          language="language-html"
           code={`<link rel="stylesheet" href="https://unpkg.com/@blaze/css@x.x.x/dist/blaze/blaze.css">`}
         />
-
-        <p class="c-paragraph">
-          {this.cssVersion && (
-            <span>
-              <strong>{this.cssVersion}</strong> is the current version
-            </span>
-          )}
-        </p>
 
         <p class="c-paragraph">Specifying a version is optional but it prevents against breaking changes.</p>
 
@@ -80,7 +45,7 @@ export class InstallPage {
           Foundation:
         </p>
 
-        <blaze-demo demo={false} language="html" code={`<button type="button">Button</button>`} />
+        <blaze-demo demo={false} language="language-html" code={`<button type="button">Button</button>`} />
 
         <p class="c-paragraph">
           <button type="button">Button</button>
@@ -88,7 +53,7 @@ export class InstallPage {
 
         <p class="c-paragraph">You need to apply our button classes:</p>
 
-        <blaze-demo demo={false} language="html" code={`<button class="c-button" type="button">Button</button>`} />
+        <blaze-demo demo={false} language="language-html" code={`<button class="c-button" type="button">Button</button>`} />
 
         <p class="c-paragraph">
           <button class="c-button" type="button">
@@ -114,18 +79,10 @@ export class InstallPage {
 
         <blaze-demo
           demo={false}
-          language="html"
+          language="language-html"
           code={`<script type="module" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.esm.js"></script>
 <script nomodule="" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.js"></script>`}
         />
-
-        <p class="c-paragraph">
-          {this.atomsVersion && (
-            <span>
-              <strong>{this.atomsVersion}</strong> is the current version
-            </span>
-          )}
-        </p>
 
         <p class="c-paragraph">That's it! Start using the components in your HTML.</p>
 
@@ -140,7 +97,7 @@ export class InstallPage {
         <p class="c-paragraph">Put a script tag similar to this:</p>
         <blaze-demo
           demo={false}
-          language="html"
+          language="language-html"
           code={`<script src="node_modules/@blaze/atoms/dist/blaze-atoms.js"></script>`}
         />
         <p class="c-paragraph">

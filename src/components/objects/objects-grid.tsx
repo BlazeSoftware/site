@@ -30,7 +30,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--demo">
   <div class="o-grid__cell">
     <div class="o-grid-text">first</div>
@@ -53,7 +53,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--demo">
   <div class="o-grid__cell o-grid__cell--width-50">
     <div class="o-grid-text">first</div>
@@ -72,7 +72,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--full o-grid--demo">
   <div class="o-grid__cell">
     <div class="o-grid-text">first</div>
@@ -95,7 +95,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--demo">
   <div class="o-grid__cell o-grid__cell--width-20">
     <div class="o-grid-text">first</div>
@@ -118,7 +118,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--demo">
   <div class="o-grid__cell o-grid__cell--width-50">
     <div class="o-grid-text">first</div>
@@ -135,7 +135,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--wrap o-grid--demo">
   <div class="o-grid__cell o-grid__cell--width-50">
     <div class="o-grid-text">first</div>
@@ -154,7 +154,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--demo">
   <div class="o-grid__cell">
     <div class="o-grid">
@@ -197,7 +197,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--bottom o-grid--demo">
   <div class="o-grid__cell">
     <div class="o-grid-text">first</div>
@@ -233,7 +233,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--bottom o-grid--demo">
   <div class="o-grid__cell o-grid__cell--top">
     <div class="o-grid-text">first</div>
@@ -272,7 +272,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full o-grid--demo">
     <div class="o-grid__cell">
       <div class="o-grid-text">first</div>
@@ -309,7 +309,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--wrap o-grid--demo">
   <div class="o-grid__cell o-grid__cell--width-100 o-grid__cell--width-33@small">
     <div class="o-grid-text">small</div>
@@ -346,7 +346,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--no-gutter o-grid--demo">
   <div class="o-grid__cell">
     <div class="o-grid-text">first</div>
@@ -365,7 +365,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--demo">
   <div class="o-grid__cell">
     <div class="o-grid-text">first</div>
@@ -389,7 +389,7 @@ export class ObjectsGrid {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<div class="o-grid o-grid--demo">
   <div class="o-grid__cell">
     <div class="o-grid-text">first</div>

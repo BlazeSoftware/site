@@ -15,7 +15,7 @@ export class ComponentsTooltips {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="c-badge c-badge--brand c-tooltip c-tooltip--right" aria-label="This is a tooltip, hello">Hover over me...</span>`}
         />
       </page-template>

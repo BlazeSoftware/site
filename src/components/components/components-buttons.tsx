@@ -22,7 +22,7 @@ export class ComponentsButtons {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<button type="button" class="c-button">Button</button>
 <input type="button" class="c-button" value="Input">
 <a class="c-button">Link</a>
@@ -36,7 +36,7 @@ export class ComponentsButtons {
         <p class="c-paragraph">There are five button color modifiers:</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<button type="button" class="c-button">Button</button>
 <button type="button" class="c-button c-button--brand">Button</button>
 <button type="button" class="c-button c-button--info">Button</button>
@@ -54,7 +54,7 @@ export class ComponentsButtons {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="c-input-group">
   <button type="button" class="c-button c-button--brand">Button</button>
   <button type="button" class="c-button">Button</button>
@@ -67,7 +67,7 @@ export class ComponentsButtons {
         </p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="c-input-group c-input-group--rounded">
   <button type="button" class="c-button c-button--brand">Button</button>
   <button type="button" class="c-button">Button</button>
@@ -81,7 +81,7 @@ export class ComponentsButtons {
         <p class="c-paragraph">Adding a size utility class will change the size of the button.</p>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<button type="button" class="c-button u-xsmall">.u-xsmall</button>
 <button type="button" class="c-button u-small">.u-small</button>
 <button type="button" class="c-button u-medium">.u-medium</button>
@@ -95,7 +95,7 @@ export class ComponentsButtons {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<button type="button" class="c-button c-button--block u-xsmall">Button</button>
 <button type="button" class="c-button c-button--block u-small">Button</button>
 <button type="button" class="c-button c-button--block u-medium">Button</button>
@@ -109,7 +109,7 @@ export class ComponentsButtons {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<button type="button" class="c-button c-button--ghost u-xsmall">Button</button>
 <button type="button" class="c-button c-button--ghost u-small">Button</button>
 <button type="button" class="c-button c-button--ghost u-medium">Button</button>
@@ -123,7 +123,7 @@ export class ComponentsButtons {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<button type="button" class="c-button c-button--ghost">Button</button>
 <button type="button" class="c-button c-button--ghost c-button-brand">Button</button>
 <button type="button" class="c-button c-button--ghost c-button-info">Button</button>
@@ -137,7 +137,7 @@ export class ComponentsButtons {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<button type="button" class="c-button c-button--rounded c-button--ghost">Button</button>
 <button type="button" class="c-button c-button--rounded c-button--ghost c-button--brand">Button</button>
 <button type="button" class="c-button c-button--rounded c-button--ghost c-button--info">Button</button>
@@ -151,7 +151,7 @@ export class ComponentsButtons {
         </h2>
 
         <blaze-demo
-          language="html"
+          language="language-html"
           code={`<span class="c-input-group">
   <button class="c-button c-button--info c-button--active" type="button">Button 1</button>
   <button class="c-button c-button--info" type="button">Button 2</button>
