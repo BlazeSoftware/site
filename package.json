@@ -37,9 +37,9 @@
     "stylelint": "stylelint \"src/**/*.scss\" --fix"
   },
   "devDependencies": {
-    "@blaze/atoms": "12.0.3",
+    "@blaze/atoms": "12.1.0",
     "@blaze/css": "10.0.4",
-    "@stencil/core": "2.14.2",
+    "@stencil/core": "2.15.0",
     "@stencil/postcss": "2.1.0",
     "@stencil/router": "1.0.1",
     "@stencil/sass": "1.5.2",
