@@ -17,7 +17,7 @@ export class UtilsElevation {
         </h2>
         <p class="c-paragraph">Available levels:</p>
         <blaze-demo
-          language="css"
+          language="language-css"
           demo={false}
           code={`.u-high
 .u-higher

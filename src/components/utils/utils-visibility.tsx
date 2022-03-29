@@ -19,7 +19,7 @@ export class UtilsVisibility {
         </h2>
 
         <blaze-demo
-          language="css"
+          language="language-css"
           demo={false}
           code={`.u-display-none
 .u-display-initial
@@ -41,7 +41,7 @@ export class UtilsVisibility {
         </p>
 
         <blaze-demo
-          language="css"
+          language="language-css"
           demo={false}
           code={`.u-visible
 .u-invisible

@@ -16,7 +16,7 @@ export class UtilsSizes {
         </p>
 
         <blaze-demo
-          language="css"
+          language="language-css"
           demo={false}
           code={`.u-xsmall
 .u-small

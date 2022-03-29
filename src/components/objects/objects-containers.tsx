@@ -28,7 +28,7 @@ export class ObjectsContainers {
         </h2>
         <p class="c-paragraph">Containers work off the screen size variables:</p>
         <blaze-demo
-          language="scss"
+          language="language-scss"
           demo={false}
           code={`$screen-width-xsmall:  20em;
 $screen-width-small:   30em;

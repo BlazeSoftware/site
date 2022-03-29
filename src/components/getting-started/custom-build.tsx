@@ -44,7 +44,7 @@ export class CustomBuild {
               </p>,
               <p class="c-paragraph">
                 <blaze-demo
-                  language="bash"
+                  language="language-bash"
                   demo={false}
                   code={`git clone git@github.com:BlazeSoftware/css.git
 git clone git@github.com:BlazeSoftware/atoms.git`}
@@ -58,7 +58,7 @@ git clone git@github.com:BlazeSoftware/atoms.git`}
             body: [
               <p class="c-paragraph">Install all node modules:</p>,
               <p class="c-paragraph">
-                <blaze-demo language="bash" demo={false} code={`nvm use && npm i`} />
+                <blaze-demo language="language-bash" demo={false} code={`nvm use && npm i`} />
               </p>,
             ],
           },
@@ -69,7 +69,7 @@ git clone git@github.com:BlazeSoftware/atoms.git`}
               <p class="c-paragraph">Each pacakge should be developed independantly.</p>,
               <p class="c-paragraph">You can make changes to the CSS and Atoms repos separately using the following command:</p>,
               <p class="c-paragraph">
-                <blaze-demo language="bash" demo={false} code={`npm start`} />
+                <blaze-demo language="language-bash" demo={false} code={`npm start`} />
               </p>,
               <p class="c-paragraph">There is a demo output per repo, that will be served on localhost and will update automatically as changes are detected.</p>,
             ],
@@ -81,7 +81,7 @@ git clone git@github.com:BlazeSoftware/atoms.git`}
               <p class="c-paragraph">Every component should have tests.</p>,
               <p class="c-paragraph">The CSS is linted and the Atoms are unit and snapshot tested.</p>,
               <p class="c-paragraph">
-                <blaze-demo language="bash" demo={false} code={`npm run test`} />
+                <blaze-demo language="language-bash" demo={false} code={`npm run test`} />
               </p>,
             ],
           },

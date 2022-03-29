@@ -21,7 +21,7 @@ export class UtilsBoxing {
         </p>
         <p class="c-paragraph">Available letter box sizes:</p>
         <blaze-demo
-          language="css"
+          language="language-css"
           demo={false}
           code={`.u-letter-box-super
 .u-letter-box-xlarge
@@ -42,7 +42,7 @@ export class UtilsBoxing {
         </p>
         <p class="c-paragraph">Available pillar box sizes:</p>
         <blaze-demo
-          language="css"
+          language="language-css"
           demo={false}
           code={`.u-pillar-box-super
 .u-pillar-box-xlarge
@@ -62,7 +62,7 @@ export class UtilsBoxing {
         </p>
         <p class="c-paragraph">Available box sizes:</p>
         <blaze-demo
-          language="css"
+          language="language-css"
           demo={false}
           code={`.u-window-box-super
 .u-window-box-xlarge
