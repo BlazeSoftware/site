@@ -107,15 +107,6 @@ export namespace Components {
     interface ExampleBasket {
         "name": string;
     }
-    interface ExampleChat {
-        "name": string;
-    }
-    interface ExampleDashboard {
-        "name": string;
-    }
-    interface ExampleEmail {
-        "name": string;
-    }
     interface ExampleLogin {
         "name": string;
     }
@@ -380,24 +371,6 @@ declare global {
         prototype: HTMLExampleBasketElement;
         new (): HTMLExampleBasketElement;
     };
-    interface HTMLExampleChatElement extends Components.ExampleChat, HTMLStencilElement {
-    }
-    var HTMLExampleChatElement: {
-        prototype: HTMLExampleChatElement;
-        new (): HTMLExampleChatElement;
-    };
-    interface HTMLExampleDashboardElement extends Components.ExampleDashboard, HTMLStencilElement {
-    }
-    var HTMLExampleDashboardElement: {
-        prototype: HTMLExampleDashboardElement;
-        new (): HTMLExampleDashboardElement;
-    };
-    interface HTMLExampleEmailElement extends Components.ExampleEmail, HTMLStencilElement {
-    }
-    var HTMLExampleEmailElement: {
-        prototype: HTMLExampleEmailElement;
-        new (): HTMLExampleEmailElement;
-    };
     interface HTMLExampleLoginElement extends Components.ExampleLogin, HTMLStencilElement {
     }
     var HTMLExampleLoginElement: {
@@ -553,9 +526,6 @@ declare global {
         "components-typography": HTMLComponentsTypographyElement;
         "custom-build": HTMLCustomBuildElement;
         "example-basket": HTMLExampleBasketElement;
-        "example-chat": HTMLExampleChatElement;
-        "example-dashboard": HTMLExampleDashboardElement;
-        "example-email": HTMLExampleEmailElement;
         "example-login": HTMLExampleLoginElement;
         "generics-global": HTMLGenericsGlobalElement;
         "home-page": HTMLHomePageElement;
@@ -680,15 +650,6 @@ declare namespace LocalJSX {
     interface ExampleBasket {
         "name"?: string;
     }
-    interface ExampleChat {
-        "name"?: string;
-    }
-    interface ExampleDashboard {
-        "name"?: string;
-    }
-    interface ExampleEmail {
-        "name"?: string;
-    }
     interface ExampleLogin {
         "name"?: string;
     }
@@ -780,9 +741,6 @@ declare namespace LocalJSX {
         "components-typography": ComponentsTypography;
         "custom-build": CustomBuild;
         "example-basket": ExampleBasket;
-        "example-chat": ExampleChat;
-        "example-dashboard": ExampleDashboard;
-        "example-email": ExampleEmail;
         "example-login": ExampleLogin;
         "generics-global": GenericsGlobal;
         "home-page": HomePage;
@@ -843,9 +801,6 @@ declare module "@stencil/core" {
             "components-typography": LocalJSX.ComponentsTypography & JSXBase.HTMLAttributes<HTMLComponentsTypographyElement>;
             "custom-build": LocalJSX.CustomBuild & JSXBase.HTMLAttributes<HTMLCustomBuildElement>;
             "example-basket": LocalJSX.ExampleBasket & JSXBase.HTMLAttributes<HTMLExampleBasketElement>;
-            "example-chat": LocalJSX.ExampleChat & JSXBase.HTMLAttributes<HTMLExampleChatElement>;
-            "example-dashboard": LocalJSX.ExampleDashboard & JSXBase.HTMLAttributes<HTMLExampleDashboardElement>;
-            "example-email": LocalJSX.ExampleEmail & JSXBase.HTMLAttributes<HTMLExampleEmailElement>;
             "example-login": LocalJSX.ExampleLogin & JSXBase.HTMLAttributes<HTMLExampleLoginElement>;
             "generics-global": LocalJSX.GenericsGlobal & JSXBase.HTMLAttributes<HTMLGenericsGlobalElement>;
             "home-page": LocalJSX.HomePage & JSXBase.HTMLAttributes<HTMLHomePageElement>;

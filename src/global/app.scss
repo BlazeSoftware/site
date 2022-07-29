@@ -1,6 +1,6 @@
-@import 'node_modules/@blaze/css/src/scss/blaze';
-@import 'node_modules/@blaze/css/src/scss/mixins/_tools.mediaqueries';
-@import 'node_modules/@blaze/css/src/scss/mixins/_utilities.visibility';
+@import "node_modules/@blaze/css/src/scss/blaze";
+@import "node_modules/@blaze/css/src/scss/mixins/_tools.mediaqueries";
+@import "node_modules/@blaze/css/src/scss/mixins/_utilities.visibility";
 
 :root {
   --text-font-family-sans-serif: avenir, sans-serif;
@@ -51,7 +51,8 @@ body {
 site-header {
   .o-page-header {
     position: relative;
-    border-bottom: 1px solid #eee;
+    padding: var(--spacing-medium) 0;
+    border-bottom: 1px solid #ddd;
   }
 
   .o-page-logo {
@@ -80,8 +81,7 @@ site-nav {
   stencil-route-link a {
     display: inline-block;
     margin: 0;
-    padding-right: 0.25em;
-    padding-left: 0.25em;
+    padding: 0.25em;
     color: var(--color-default);
     text-decoration: none;
     background-color: transparent;
@@ -137,18 +137,24 @@ site-nav {
 home-page {
   .c-site-header {
     padding: 0;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 4em;
     text-align: center;
 
     &__highlight {
-      color: var(--color-error);
+      display: inline-block;
+      margin: 50px 0;
+      padding: 0 20px;
+      color: white;
+      font-weight: bold;
+      background-color: var(--color-error);
+      border-radius: var(--border-radius);
     }
   }
 
   i.fa-fw {
     color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
     background-clip: text;
   }
 
@@ -211,7 +217,7 @@ page-template > section {
   margin: 5px 0;
 }
 
-.c-card--menu[role='menu'] {
+.c-card--menu[role="menu"] {
   position: relative;
 }
 
@@ -234,7 +240,7 @@ page-template > section {
   position: relative;
   height: 550px;
   overflow: hidden;
-  background-image: url('https://source.unsplash.com/random');
+  background-image: url("https://source.unsplash.com/random");
   background-size: cover;
 }
 
@@ -269,7 +275,7 @@ page-template > section {
 }
 
 aside.o-drawer,
-.o-modal[role='dialog'],
+.o-modal[role="dialog"],
 .c-overlay[aria-hidden],
 .fixed-height-demo .c-alerts {
   position: absolute;

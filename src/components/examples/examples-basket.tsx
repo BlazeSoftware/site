@@ -149,7 +149,7 @@ export class ExampleBasket {
                 </div>
                 <div class="c-card__item o-media">
                   <div class="o-media__image">
-                    <img class="o-image" src="https://placehold.it/80" />
+                    <img class="o-image u-rounded" src="https://via.placeholder.com/80" />
                   </div>
                   <div class="o-media__body">
                     <h3 class="c-heading">
@@ -160,7 +160,7 @@ export class ExampleBasket {
                 </div>
                 <div class="c-card__item o-media">
                   <div class="o-media__image">
-                    <img class="o-image" src="https://placehold.it/80" />
+                    <img class="o-image u-rounded" src="https://via.placeholder.com/80" />
                   </div>
                   <div class="o-media__body">
                     <h3 class="c-heading">

@@ -20,38 +20,17 @@ export const gettingStartedRoutes = [
 
 export const exampleRoutes = [
   new Route({
-    url: '/examples/basket',
-    component: 'example-basket',
-    props: new RouteProps({
-      name: 'Example Basket',
-    }),
-  }),
-  new Route({
-    url: '/examples/chat',
-    component: 'example-chat',
-    props: new RouteProps({
-      name: 'Example Chat',
-    }),
-  }),
-  new Route({
-    url: '/examples/dashboard',
-    component: 'example-dashboard',
-    props: new RouteProps({
-      name: 'Example Dashboard',
-    }),
-  }),
-  new Route({
-    url: '/examples/email',
-    component: 'example-email',
-    props: new RouteProps({
-      name: 'Example Email',
-    }),
-  }),
-  new Route({
     url: '/examples/login',
     component: 'example-login',
     props: new RouteProps({
       name: 'Example Login',
+    }),
+  }),
+  new Route({
+    url: '/examples/basket',
+    component: 'example-basket',
+    props: new RouteProps({
+      name: 'Example Basket',
     }),
   }),
 ];

@@ -19,7 +19,7 @@ export class ObjectsMedias {
           code={`<div class="c-card">
   <div class="c-card__item c-card__item--brand o-media">
     <div class="o-media__image">
-      <img class="o-image" src="https://placehold.it/80"/>
+      <img class="o-image" src="https://via.placeholder.com/80"/>
     </div>
     <div class="o-media__body">
       <h2 class="c-heading">Title <span class="c-heading__sub">Subtitle</span></h2>
@@ -42,7 +42,7 @@ export class ObjectsMedias {
       </p>
     </div>
     <div class="o-media__image">
-      <img class="o-image" src="https://placehold.it/80"/>
+      <img class="o-image" src="https://via.placeholder.com/80"/>
     </div>
   </div>
 </div>`}
@@ -60,7 +60,7 @@ export class ObjectsMedias {
               code={`<div class="c-card">
   <div class="c-card__item o-media">
     <div class="o-media__image o-media__image--bottom">
-      <img class="o-image" src="https://placehold.it/80"/>
+      <img class="o-image" src="https://via.placeholder.com/80"/>
     </div>
     <div class="o-media__body">
       <h2 class="c-heading">Title <span class="c-heading__sub">Subtitle</span></h2>
@@ -79,7 +79,7 @@ export class ObjectsMedias {
               code={`<div class="c-card">
   <div class="c-card__item o-media">
     <div class="o-media__image o-media__image--center">
-      <img class="o-image" src="https://placehold.it/80"/>
+      <img class="o-image" src="https://via.placeholder.com/80"/>
     </div>
     <div class="o-media__body">
       <h2 class="c-heading">Title <span class="c-heading__sub">Subtitle</span></h2>
@@ -98,7 +98,7 @@ export class ObjectsMedias {
               code={`<div class="c-card">
   <div class="c-card__item o-media">
     <div class="o-media__image o-media__image--top">
-      <img class="o-image" src="https://placehold.it/80"/>
+      <img class="o-image" src="https://via.placeholder.com/80"/>
     </div>
     <div class="o-media__body">
       <h2 class="c-heading">Title <span class="c-heading__sub">Subtitle</span></h2>
