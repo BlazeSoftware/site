@@ -1,6 +1,6 @@
-@import "node_modules/@blaze/css/src/scss/blaze";
-@import "node_modules/@blaze/css/src/scss/mixins/_tools.mediaqueries";
-@import "node_modules/@blaze/css/src/scss/mixins/_utilities.visibility";
+@import 'node_modules/@blaze/css/src/scss/blaze';
+@import 'node_modules/@blaze/css/src/scss/mixins/tools.mediaqueries';
+@import 'node_modules/@blaze/css/src/scss/mixins/utilities.visibility';
 
 :root {
   --text-font-family-sans-serif: avenir, sans-serif;
@@ -155,7 +155,6 @@ home-page {
   i.fa-fw {
     color: transparent;
     background-clip: text;
-    background-clip: text;
   }
 
   .fa-accessible-icon {
@@ -217,7 +216,7 @@ page-template > section {
   margin: 5px 0;
 }
 
-.c-card--menu[role="menu"] {
+.c-card--menu[role='menu'] {
   position: relative;
 }
 
@@ -240,7 +239,7 @@ page-template > section {
   position: relative;
   height: 550px;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/random");
+  background-image: url('https://source.unsplash.com/random');
   background-size: cover;
 }
 
@@ -275,14 +274,8 @@ page-template > section {
 }
 
 aside.o-drawer,
-.o-modal[role="dialog"],
+.o-modal[role='dialog'],
 .c-overlay[aria-hidden],
 .fixed-height-demo .c-alerts {
   position: absolute;
-}
-
-@keyframes slideOpen {
-  to {
-    max-height: 500px;
-  }
 }
