@@ -4,15 +4,17 @@ import { h, Component, Prop, Listen, State } from '@stencil/core';
   tag: 'components-counter',
 })
 export class ComponentsCounter {
+  alertRef: any;
+
   @Prop()
   name: string;
 
   @State()
   transferComplete: boolean = false;
 
-  @Listen('completed')
-  onComplete() {
-    this.transferComplete = true;
+  @Listen('finish')
+  onFinish() {
+    this.alertRef.show();
   }
 
   render() {
@@ -21,11 +23,9 @@ export class ComponentsCounter {
         <p class="c-paragraph">When you want to display a number with a bit more flair than usual.</p>
 
         <blaze-alerts position="bottomright">
-          {this.transferComplete && (
-            <blaze-alert open dismissible type="success">
-              Transfer complete...
-            </blaze-alert>
-          )}
+          <blaze-alert ref={ref => (this.alertRef = ref)} dismissible type="success">
+            Transfer complete!
+          </blaze-alert>
         </blaze-alerts>
 
         <blaze-demo
@@ -35,7 +35,7 @@ export class ComponentsCounter {
   auto-start
   start-value="120"
   end-value="0"
-  duration="10"
+  duration="5"
   decimals="2"
   delay="2000">
   <span slot="prefix">&pound;</span>
@@ -124,7 +124,7 @@ export class ComponentsCounter {
           </thead>
           <tbody class="c-table__body">
             <tr class="c-table__row">
-              <td class="c-table__cell">completed: void</td>
+              <td class="c-table__cell">finish: void</td>
               <td class="c-table__cell">Trigged when the counter has finished</td>
             </tr>
           </tbody>

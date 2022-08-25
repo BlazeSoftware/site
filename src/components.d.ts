@@ -29,9 +29,6 @@ export namespace Components {
     interface ComponentsBadges {
         "name": string;
     }
-    interface ComponentsBreadcrumbs {
-        "name": string;
-    }
     interface ComponentsButtons {
         "name": string;
     }
@@ -108,9 +105,6 @@ export namespace Components {
         "name": string;
     }
     interface ExampleLogin {
-        "name": string;
-    }
-    interface GenericsGlobal {
         "name": string;
     }
     interface HomePage {
@@ -214,12 +208,6 @@ declare global {
     var HTMLComponentsBadgesElement: {
         prototype: HTMLComponentsBadgesElement;
         new (): HTMLComponentsBadgesElement;
-    };
-    interface HTMLComponentsBreadcrumbsElement extends Components.ComponentsBreadcrumbs, HTMLStencilElement {
-    }
-    var HTMLComponentsBreadcrumbsElement: {
-        prototype: HTMLComponentsBreadcrumbsElement;
-        new (): HTMLComponentsBreadcrumbsElement;
     };
     interface HTMLComponentsButtonsElement extends Components.ComponentsButtons, HTMLStencilElement {
     }
@@ -377,12 +365,6 @@ declare global {
         prototype: HTMLExampleLoginElement;
         new (): HTMLExampleLoginElement;
     };
-    interface HTMLGenericsGlobalElement extends Components.GenericsGlobal, HTMLStencilElement {
-    }
-    var HTMLGenericsGlobalElement: {
-        prototype: HTMLGenericsGlobalElement;
-        new (): HTMLGenericsGlobalElement;
-    };
     interface HTMLHomePageElement extends Components.HomePage, HTMLStencilElement {
     }
     var HTMLHomePageElement: {
@@ -500,7 +482,6 @@ declare global {
         "components-avatars": HTMLComponentsAvatarsElement;
         "components-back-to-top": HTMLComponentsBackToTopElement;
         "components-badges": HTMLComponentsBadgesElement;
-        "components-breadcrumbs": HTMLComponentsBreadcrumbsElement;
         "components-buttons": HTMLComponentsButtonsElement;
         "components-calendars": HTMLComponentsCalendarsElement;
         "components-cards": HTMLComponentsCardsElement;
@@ -527,7 +508,6 @@ declare global {
         "custom-build": HTMLCustomBuildElement;
         "example-basket": HTMLExampleBasketElement;
         "example-login": HTMLExampleLoginElement;
-        "generics-global": HTMLGenericsGlobalElement;
         "home-page": HTMLHomePageElement;
         "install-page": HTMLInstallPageElement;
         "objects-containers": HTMLObjectsContainersElement;
@@ -570,9 +550,6 @@ declare namespace LocalJSX {
         "name"?: string;
     }
     interface ComponentsBadges {
-        "name"?: string;
-    }
-    interface ComponentsBreadcrumbs {
         "name"?: string;
     }
     interface ComponentsButtons {
@@ -653,9 +630,6 @@ declare namespace LocalJSX {
     interface ExampleLogin {
         "name"?: string;
     }
-    interface GenericsGlobal {
-        "name"?: string;
-    }
     interface HomePage {
     }
     interface InstallPage {
@@ -715,7 +689,6 @@ declare namespace LocalJSX {
         "components-avatars": ComponentsAvatars;
         "components-back-to-top": ComponentsBackToTop;
         "components-badges": ComponentsBadges;
-        "components-breadcrumbs": ComponentsBreadcrumbs;
         "components-buttons": ComponentsButtons;
         "components-calendars": ComponentsCalendars;
         "components-cards": ComponentsCards;
@@ -742,7 +715,6 @@ declare namespace LocalJSX {
         "custom-build": CustomBuild;
         "example-basket": ExampleBasket;
         "example-login": ExampleLogin;
-        "generics-global": GenericsGlobal;
         "home-page": HomePage;
         "install-page": InstallPage;
         "objects-containers": ObjectsContainers;
@@ -775,7 +747,6 @@ declare module "@stencil/core" {
             "components-avatars": LocalJSX.ComponentsAvatars & JSXBase.HTMLAttributes<HTMLComponentsAvatarsElement>;
             "components-back-to-top": LocalJSX.ComponentsBackToTop & JSXBase.HTMLAttributes<HTMLComponentsBackToTopElement>;
             "components-badges": LocalJSX.ComponentsBadges & JSXBase.HTMLAttributes<HTMLComponentsBadgesElement>;
-            "components-breadcrumbs": LocalJSX.ComponentsBreadcrumbs & JSXBase.HTMLAttributes<HTMLComponentsBreadcrumbsElement>;
             "components-buttons": LocalJSX.ComponentsButtons & JSXBase.HTMLAttributes<HTMLComponentsButtonsElement>;
             "components-calendars": LocalJSX.ComponentsCalendars & JSXBase.HTMLAttributes<HTMLComponentsCalendarsElement>;
             "components-cards": LocalJSX.ComponentsCards & JSXBase.HTMLAttributes<HTMLComponentsCardsElement>;
@@ -802,7 +773,6 @@ declare module "@stencil/core" {
             "custom-build": LocalJSX.CustomBuild & JSXBase.HTMLAttributes<HTMLCustomBuildElement>;
             "example-basket": LocalJSX.ExampleBasket & JSXBase.HTMLAttributes<HTMLExampleBasketElement>;
             "example-login": LocalJSX.ExampleLogin & JSXBase.HTMLAttributes<HTMLExampleLoginElement>;
-            "generics-global": LocalJSX.GenericsGlobal & JSXBase.HTMLAttributes<HTMLGenericsGlobalElement>;
             "home-page": LocalJSX.HomePage & JSXBase.HTMLAttributes<HTMLHomePageElement>;
             "install-page": LocalJSX.InstallPage & JSXBase.HTMLAttributes<HTMLInstallPageElement>;
             "objects-containers": LocalJSX.ObjectsContainers & JSXBase.HTMLAttributes<HTMLObjectsContainersElement>;

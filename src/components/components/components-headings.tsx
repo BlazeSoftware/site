@@ -16,6 +16,14 @@ export class ComponentsHeadings {
         <blaze-demo language="language-html" code={`<h1 class="c-heading u-medium">Medium</h1>`} />
         <blaze-demo language="language-html" code={`<h1 class="c-heading u-small">Small</h1>`} />
         <blaze-demo language="language-html" code={`<h1 class="c-heading u-xsmall">Extra Small</h1>`} />
+
+        <blaze-demo
+          language="language-html"
+          code={`<h1 class="c-heading u-super">
+  Sub-heading
+  <div class="c-heading__sub">Hello, world</div>
+</h1>`}
+        />
       </page-template>
     );
   }

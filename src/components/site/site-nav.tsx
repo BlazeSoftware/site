@@ -31,9 +31,10 @@ export class SiteNav {
     };
 
     return (
-      <section>
+      <section class="u-letter-box-medium">
         <h3 aria-label={`${title}, ${description}`} class="c-heading u-large">
           {title}
+          <div class="c-heading__sub">{description}</div>
         </h3>
         <ul class="c-list c-list--unstyled">{navLinks(routes)}</ul>
       </section>
@@ -50,7 +51,7 @@ export class SiteNav {
           <i class="fas fa-bars fa-lg" />
         </button>
         <div aria-hidden class={`c-overlay c-overlay--dismissible ${overlayVisibleClass}`} onClick={() => this.close()} />
-        <aside class={`o-drawer o-drawer--left ${drawerVisibleClass} u-highest`}>
+        <aside class={`o-drawer o-drawer--left ${drawerVisibleClass} u-highest`} style={{ width: '320px' }}>
           <div class="c-card">
             <div class="c-card__body">
               <nav aria-label="Navigation panel open">

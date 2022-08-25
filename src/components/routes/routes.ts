@@ -35,16 +35,6 @@ export const exampleRoutes = [
   }),
 ];
 
-export const genericsRoutes = [
-  new Route({
-    url: '/generics/global',
-    component: 'generics-global',
-    props: new RouteProps({
-      name: 'Global',
-    }),
-  }),
-];
-
 export const objectsRoutes = [
   new Route({
     url: '/objects/containers',
@@ -184,13 +174,6 @@ export const componentsRoutes = [
     component: 'components-badges',
     props: new RouteProps({
       name: 'Badges',
-    }),
-  }),
-  new Route({
-    url: '/components/breadcrumbs',
-    component: 'components-breadcrumbs',
-    props: new RouteProps({
-      name: 'Breadcrumbs',
     }),
   }),
   new Route({
@@ -356,35 +339,45 @@ export const componentsRoutes = [
   }),
 ];
 
+export const variablesRoutes = [
+  new Route({
+    url: '/variables',
+    component: 'variables-all',
+    props: new RouteProps({
+      name: 'All variables',
+    }),
+  }),
+];
+
 export const allRoutes = [
   {
     title: 'Getting Started',
-    description: 'Instructions on how to begin using the framework',
+    description: 'How to begin using Blaze',
     routes: gettingStartedRoutes,
   },
   {
     title: 'Examples',
-    description: 'Examples of using Blaze',
+    description: '',
     routes: exampleRoutes,
   },
   {
-    title: 'Generics',
-    description: 'Generics provide basic resets',
-    routes: genericsRoutes,
-  },
-  {
     title: 'Objects',
-    description: 'Objects provide layout and structure',
+    description: 'Layout and structure',
     routes: objectsRoutes,
   },
   {
     title: 'Components',
-    description: 'Components are the atomic features fully styled',
+    description: 'Fully styled atomic features',
     routes: componentsRoutes,
   },
   {
     title: 'Utilities',
-    description: 'Utilities are helpers that overrides the inherited styling',
+    description: 'Override helpers',
     routes: utilsRoutes,
+  },
+  {
+    title: 'Variables',
+    description: 'Fully customise Blaze',
+    routes: variablesRoutes,
   },
 ];
