@@ -159,6 +159,9 @@ export namespace Components {
     interface UtilsVisibility {
         "name": string;
     }
+    interface VariablesAll {
+        "name": string;
+    }
 }
 declare global {
     interface HTMLBlazeSiteElement extends Components.BlazeSite, HTMLStencilElement {
@@ -473,6 +476,12 @@ declare global {
         prototype: HTMLUtilsVisibilityElement;
         new (): HTMLUtilsVisibilityElement;
     };
+    interface HTMLVariablesAllElement extends Components.VariablesAll, HTMLStencilElement {
+    }
+    var HTMLVariablesAllElement: {
+        prototype: HTMLVariablesAllElement;
+        new (): HTMLVariablesAllElement;
+    };
     interface HTMLElementTagNameMap {
         "blaze-site": HTMLBlazeSiteElement;
         "components-accordions": HTMLComponentsAccordionsElement;
@@ -526,6 +535,7 @@ declare global {
         "utils-elevation": HTMLUtilsElevationElement;
         "utils-sizes": HTMLUtilsSizesElement;
         "utils-visibility": HTMLUtilsVisibilityElement;
+        "variables-all": HTMLVariablesAllElement;
     }
 }
 declare namespace LocalJSX {
@@ -680,6 +690,9 @@ declare namespace LocalJSX {
     interface UtilsVisibility {
         "name"?: string;
     }
+    interface VariablesAll {
+        "name"?: string;
+    }
     interface IntrinsicElements {
         "blaze-site": BlazeSite;
         "components-accordions": ComponentsAccordions;
@@ -733,6 +746,7 @@ declare namespace LocalJSX {
         "utils-elevation": UtilsElevation;
         "utils-sizes": UtilsSizes;
         "utils-visibility": UtilsVisibility;
+        "variables-all": VariablesAll;
     }
 }
 export { LocalJSX as JSX };
@@ -791,6 +805,7 @@ declare module "@stencil/core" {
             "utils-elevation": LocalJSX.UtilsElevation & JSXBase.HTMLAttributes<HTMLUtilsElevationElement>;
             "utils-sizes": LocalJSX.UtilsSizes & JSXBase.HTMLAttributes<HTMLUtilsSizesElement>;
             "utils-visibility": LocalJSX.UtilsVisibility & JSXBase.HTMLAttributes<HTMLUtilsVisibilityElement>;
+            "variables-all": LocalJSX.VariablesAll & JSXBase.HTMLAttributes<HTMLVariablesAllElement>;
         }
     }
 }
