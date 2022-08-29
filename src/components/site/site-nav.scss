@@ -1,0 +1,49 @@
+@import 'node_modules/@blaze/css/src/scss/mixins/tools.mediaqueries';
+
+site-nav {
+  stencil-route-link a {
+    display: inline-block;
+    margin: 0;
+    padding: 0.25em;
+    color: var(--color-2);
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  stencil-route-link .link-active {
+    color: #fff;
+    background-color: var(--color-brand);
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  .c-overlay[aria-hidden],
+  aside.o-drawer {
+    position: fixed;
+    z-index: 1000;
+  }
+
+  .c-overlay {
+    transition: visibility 0s 0.3s, opacity 0.3s;
+  }
+
+  .c-overlay--visible {
+    transition: opacity 0.3s;
+  }
+
+  @include screen-and-up(super) {
+    .c-overlay[aria-hidden],
+    .o-page-header__button {
+      display: none;
+    }
+
+    aside.o-drawer.o-drawer--left {
+      transform: translateX(-1%);
+      visibility: visible;
+    }
+  }
+}

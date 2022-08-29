@@ -1,0 +1,17 @@
+site-name {
+  .c-site-name {
+    padding: 0;
+    font-weight: normal;
+    color: var(--color-text);
+    text-decoration: none;
+
+    .c-site-name__highlight {
+      display: inline-block;
+      padding: 0 0.33em;
+      color: white;
+      font-weight: bold;
+      background-color: var(--color-error);
+      border-radius: var(--border-radius);
+    }
+  }
+}

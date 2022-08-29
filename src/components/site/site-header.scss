@@ -1,0 +1,28 @@
+site-header {
+  .o-page-header {
+    position: relative;
+    padding: var(--spacing-medium) 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .o-page-logo {
+    color: var(--color-error);
+  }
+
+  .o-page-header__button {
+    position: absolute;
+    top: 50%;
+    width: 2em;
+    font-size: var(--text-font-size-xlarge);
+    text-align: center;
+    transform: translateY(-50%);
+
+    &--left {
+      left: 1em;
+    }
+
+    &--right {
+      right: 1em;
+    }
+  }
+}

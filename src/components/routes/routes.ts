@@ -1,352 +1,351 @@
-import Route from './Route';
-import RouteProps from './RouteProps';
+import { Route } from './types';
 
-export const gettingStartedRoutes = [
-  new Route({
+export const gettingStartedRoutes: Route[] = [
+  {
     url: '/getting-started/install',
     component: 'install-page',
-    props: new RouteProps({
+    props: {
       name: 'Install',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/getting-started/custombuild',
     component: 'custom-build',
-    props: new RouteProps({
+    props: {
       name: 'Custom Build',
-    }),
-  }),
+    },
+  },
 ];
 
-export const exampleRoutes = [
-  new Route({
+export const exampleRoutes: Route[] = [
+  {
     url: '/examples/login',
     component: 'example-login',
-    props: new RouteProps({
+    props: {
       name: 'Example Login',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/examples/basket',
     component: 'example-basket',
-    props: new RouteProps({
+    props: {
       name: 'Example Basket',
-    }),
-  }),
+    },
+  },
 ];
 
-export const objectsRoutes = [
-  new Route({
+export const objectsRoutes: Route[] = [
+  {
     url: '/objects/containers',
     component: 'objects-containers',
-    props: new RouteProps({
+    props: {
       name: 'Containers',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/objects/grid',
     component: 'objects-grid',
-    props: new RouteProps({
+    props: {
       name: 'Grid',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/objects/panels',
     component: 'objects-panels',
-    props: new RouteProps({
+    props: {
       name: 'Panels',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/objects/images',
     component: 'objects-images',
-    props: new RouteProps({
+    props: {
       name: 'Images',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/objects/drawers',
     component: 'objects-drawers',
-    props: new RouteProps({
+    props: {
       name: 'Drawers',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/objects/medias',
     component: 'objects-medias',
-    props: new RouteProps({
+    props: {
       name: 'Medias',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/objects/modals',
     component: 'objects-modals',
-    props: new RouteProps({
+    props: {
       name: 'Modals',
-    }),
-  }),
+    },
+  },
 ];
 
-export const utilsRoutes = [
-  new Route({
+export const utilsRoutes: Route[] = [
+  {
     url: '/utils/alignment',
     component: 'utils-alignment',
-    props: new RouteProps({
+    props: {
       name: 'Alignment',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/utils/boxing',
     component: 'utils-boxing',
-    props: new RouteProps({
+    props: {
       name: 'Boxing',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/utils/elevation',
     component: 'utils-elevation',
-    props: new RouteProps({
+    props: {
       name: 'Elevation',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/utils/sizes',
     component: 'utils-sizes',
-    props: new RouteProps({
+    props: {
       name: 'Sizes',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/utils/visibility',
     component: 'utils-visibility',
-    props: new RouteProps({
+    props: {
       name: 'Visibility',
-    }),
-  }),
+    },
+  },
 ];
 
-export const componentsRoutes = [
-  new Route({
+export const componentsRoutes: Route[] = [
+  {
     url: '/components/accordions',
     component: 'components-accordions',
-    props: new RouteProps({
+    props: {
       name: 'Accordions',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/addresses',
     component: 'components-addresses',
-    props: new RouteProps({
+    props: {
       name: 'Addresses',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/alerts',
     component: 'components-alerts',
-    props: new RouteProps({
+    props: {
       name: 'Alerts',
-    }),
-  }),
+    },
+  },
 
-  new Route({
+  {
     url: '/components/autocomplete',
     component: 'components-autocomplete',
-    props: new RouteProps({
+    props: {
       name: 'Autocomplete',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/avatars',
     component: 'components-avatars',
-    props: new RouteProps({
+    props: {
       name: 'Avatars',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/back-to-top',
     component: 'components-back-to-top',
-    props: new RouteProps({
+    props: {
       name: 'Back to top',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/badges',
     component: 'components-badges',
-    props: new RouteProps({
+    props: {
       name: 'Badges',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/buttons',
     component: 'components-buttons',
-    props: new RouteProps({
+    props: {
       name: 'Buttons',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/calendars',
     component: 'components-calendars',
-    props: new RouteProps({
+    props: {
       name: 'Calendars',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/cards',
     component: 'components-cards',
-    props: new RouteProps({
+    props: {
       name: 'Cards',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/counter',
     component: 'components-counter',
-    props: new RouteProps({
+    props: {
       name: 'Counter',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/divider',
     component: 'components-divider',
-    props: new RouteProps({
+    props: {
       name: 'Divider',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/file-upload',
     component: 'components-file-upload',
-    props: new RouteProps({
+    props: {
       name: 'File Upload',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/headings',
     component: 'components-headings',
-    props: new RouteProps({
+    props: {
       name: 'Headings',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/inputs',
     component: 'components-inputs',
-    props: new RouteProps({
+    props: {
       name: 'Inputs',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/lists',
     component: 'components-lists',
-    props: new RouteProps({
+    props: {
       name: 'Lists',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/menus',
     component: 'components-menus',
-    props: new RouteProps({
+    props: {
       name: 'Menus',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/overlays',
     component: 'components-overlays',
-    props: new RouteProps({
+    props: {
       name: 'Overlays',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/pagination',
     component: 'components-pagination',
-    props: new RouteProps({
+    props: {
       name: 'Pagination',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/progress',
     component: 'components-progress',
-    props: new RouteProps({
+    props: {
       name: 'Progress',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/ranges',
     component: 'components-ranges',
-    props: new RouteProps({
+    props: {
       name: 'Ranges',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/sticky',
     component: 'components-sticky',
-    props: new RouteProps({
+    props: {
       name: 'Sticky',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/tables',
     component: 'components-tables',
-    props: new RouteProps({
+    props: {
       name: 'Tables',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/tabs',
     component: 'components-tabs',
-    props: new RouteProps({
+    props: {
       name: 'Tabs',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/timelines',
     component: 'components-timelines',
-    props: new RouteProps({
+    props: {
       name: 'Timelines',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/toasts',
     component: 'components-toasts',
-    props: new RouteProps({
+    props: {
       name: 'Toasts',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/toggles',
     component: 'components-toggles',
-    props: new RouteProps({
+    props: {
       name: 'Toggles',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/tooltips',
     component: 'components-tooltips',
-    props: new RouteProps({
+    props: {
       name: 'Tooltips',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/trees',
     component: 'components-trees',
-    props: new RouteProps({
+    props: {
       name: 'Trees',
-    }),
-  }),
-  new Route({
+    },
+  },
+  {
     url: '/components/typography',
     component: 'components-typography',
-    props: new RouteProps({
+    props: {
       name: 'Typography',
-    }),
-  }),
+    },
+  },
 ];
 
-export const variablesRoutes = [
-  new Route({
+export const variablesRoutes: Route[] = [
+  {
     url: '/variables',
     component: 'variables-all',
-    props: new RouteProps({
+    props: {
       name: 'All variables',
-    }),
-  }),
+    },
+  },
 ];
 
 export const allRoutes = [

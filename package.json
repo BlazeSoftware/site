@@ -43,6 +43,7 @@
     "@stencil/postcss": "2.1.0",
     "@stencil/router": "1.0.1",
     "@stencil/sass": "1.5.2",
+    "@stencil/store": "2.0.0",
     "@types/cssnano": "5.1.0",
     "@types/jest": "27.4.1",
     "@types/puppeteer": "5.4.5",

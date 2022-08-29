@@ -2,6 +2,7 @@ import { h, Component, Prop } from '@stencil/core';
 
 @Component({
   tag: 'page-template',
+  styleUrl: 'page-template.scss'
 })
 export class PageTemplate {
   @Prop()

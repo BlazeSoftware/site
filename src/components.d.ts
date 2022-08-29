@@ -140,9 +140,16 @@ export namespace Components {
     }
     interface SiteHeader {
     }
+    interface SiteName {
+    }
     interface SiteNav {
         "close": () => Promise<void>;
         "show": () => Promise<void>;
+    }
+    interface ThemerPanel {
+        "close": () => Promise<void>;
+        "show": () => Promise<void>;
+        "variables": string[];
     }
     interface UtilsAlignment {
         "name": string;
@@ -440,11 +447,23 @@ declare global {
         prototype: HTMLSiteHeaderElement;
         new (): HTMLSiteHeaderElement;
     };
+    interface HTMLSiteNameElement extends Components.SiteName, HTMLStencilElement {
+    }
+    var HTMLSiteNameElement: {
+        prototype: HTMLSiteNameElement;
+        new (): HTMLSiteNameElement;
+    };
     interface HTMLSiteNavElement extends Components.SiteNav, HTMLStencilElement {
     }
     var HTMLSiteNavElement: {
         prototype: HTMLSiteNavElement;
         new (): HTMLSiteNavElement;
+    };
+    interface HTMLThemerPanelElement extends Components.ThemerPanel, HTMLStencilElement {
+    }
+    var HTMLThemerPanelElement: {
+        prototype: HTMLThemerPanelElement;
+        new (): HTMLThemerPanelElement;
     };
     interface HTMLUtilsAlignmentElement extends Components.UtilsAlignment, HTMLStencilElement {
     }
@@ -529,7 +548,9 @@ declare global {
         "page-not-found": HTMLPageNotFoundElement;
         "page-template": HTMLPageTemplateElement;
         "site-header": HTMLSiteHeaderElement;
+        "site-name": HTMLSiteNameElement;
         "site-nav": HTMLSiteNavElement;
+        "themer-panel": HTMLThemerPanelElement;
         "utils-alignment": HTMLUtilsAlignmentElement;
         "utils-boxing": HTMLUtilsBoxingElement;
         "utils-elevation": HTMLUtilsElevationElement;
@@ -673,7 +694,12 @@ declare namespace LocalJSX {
     }
     interface SiteHeader {
     }
+    interface SiteName {
+    }
     interface SiteNav {
+    }
+    interface ThemerPanel {
+        "variables"?: string[];
     }
     interface UtilsAlignment {
         "name"?: string;
@@ -740,7 +766,9 @@ declare namespace LocalJSX {
         "page-not-found": PageNotFound;
         "page-template": PageTemplate;
         "site-header": SiteHeader;
+        "site-name": SiteName;
         "site-nav": SiteNav;
+        "themer-panel": ThemerPanel;
         "utils-alignment": UtilsAlignment;
         "utils-boxing": UtilsBoxing;
         "utils-elevation": UtilsElevation;
@@ -799,7 +827,9 @@ declare module "@stencil/core" {
             "page-not-found": LocalJSX.PageNotFound & JSXBase.HTMLAttributes<HTMLPageNotFoundElement>;
             "page-template": LocalJSX.PageTemplate & JSXBase.HTMLAttributes<HTMLPageTemplateElement>;
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;
+            "site-name": LocalJSX.SiteName & JSXBase.HTMLAttributes<HTMLSiteNameElement>;
             "site-nav": LocalJSX.SiteNav & JSXBase.HTMLAttributes<HTMLSiteNavElement>;
+            "themer-panel": LocalJSX.ThemerPanel & JSXBase.HTMLAttributes<HTMLThemerPanelElement>;
             "utils-alignment": LocalJSX.UtilsAlignment & JSXBase.HTMLAttributes<HTMLUtilsAlignmentElement>;
             "utils-boxing": LocalJSX.UtilsBoxing & JSXBase.HTMLAttributes<HTMLUtilsBoxingElement>;
             "utils-elevation": LocalJSX.UtilsElevation & JSXBase.HTMLAttributes<HTMLUtilsElevationElement>;

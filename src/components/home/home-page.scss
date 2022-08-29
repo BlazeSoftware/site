@@ -1,0 +1,63 @@
+@import 'node_modules/@blaze/css/src/scss/mixins/tools.mediaqueries';
+
+home-page {
+  .c-site-header {
+    padding: 0.75em;
+    font-size: 4em;
+    text-align: center;
+  }
+
+  i.fa-fw {
+    color: transparent;
+    background-clip: text;
+  }
+
+  .fa-accessible-icon {
+    color: #2c3e50;
+  }
+
+  .fa-js-square {
+    color: #f1ac2c;
+  }
+
+  .fa-hand-paper {
+    color: #2caad4;
+  }
+
+  .fa-mobile {
+    color: #4e5851;
+  }
+
+  .fa-cogs {
+    color: #d146c3;
+  }
+
+  .fa-github {
+    color: #000;
+  }
+
+  .fa-code-branch {
+    color: #59b458;
+  }
+
+  .fa-gavel {
+    color: #9e4747;
+  }
+
+  @include screen-and-up(small) {
+    .c-site-header {
+      font-size: 6em;
+    }
+  }
+
+  .c-input-group {
+    @include screen-and-up(large) {
+      font-size: var(--text-font-size-large);
+    }
+
+    .c-button:first-child,
+    .c-button:last-child {
+      border-radius: 0;
+    }
+  }
+}

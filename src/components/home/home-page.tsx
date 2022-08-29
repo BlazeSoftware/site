@@ -2,6 +2,7 @@ import { h, Component } from '@stencil/core';
 
 @Component({
   tag: 'home-page',
+  styleUrl: 'home-page.scss',
 })
 export class LandingPage {
   constructor() {
@@ -12,7 +13,7 @@ export class LandingPage {
     return (
       <main>
         <h1 aria-label="Blaze UI" class="c-heading c-site-header">
-          <span class="c-site-header__highlight">Blaze</span> UI
+          <site-name />
         </h1>
 
         <p class="o-container o-container--small u-super u-centered">Framework-free open source UI toolkit.</p>
@@ -26,8 +27,6 @@ export class LandingPage {
             Get started
           </stencil-route-link>
         </div>
-
-        
 
         <div class="o-container o-container--super u-centered">
           <div class="o-grid o-grid--wrap o-grid--xsmall-full o-grid--small-full o-grid--medium-full">

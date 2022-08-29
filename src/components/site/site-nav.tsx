@@ -1,22 +1,25 @@
 import { h, Component, Method, State } from '@stencil/core';
 import { allRoutes } from '../routes/routes';
-import Route from '../routes/Route';
+import { Route } from '../routes/types';
 
 @Component({
   tag: 'site-nav',
+  styleUrl: 'site-nav.scss'
 })
 export class SiteNav {
+  drawerRef: any;
+
   @State()
   isOpen: boolean;
 
   @Method()
   async show() {
-    this.isOpen = true;
+    this.drawerRef.show();
   }
 
   @Method()
   async close() {
-    this.isOpen = false;
+    this.drawerRef.close();
   }
 
   navSection({ title, description, routes }: { title: string; description: string; routes: Array<Route> }) {
@@ -42,22 +45,20 @@ export class SiteNav {
   }
 
   render() {
-    const drawerVisibleClass = this.isOpen ? 'o-drawer--visible' : '';
-    const overlayVisibleClass = this.isOpen ? 'c-overlay--visible' : '';
-
     return (
       <div class="u-text">
         <button aria-label="Open navigation menu" class="c-button c-button--nude o-page-header__button o-page-header__button--left" onClick={() => this.show()}>
           <i class="fas fa-bars fa-lg" />
         </button>
-        <div aria-hidden class={`c-overlay c-overlay--dismissible ${overlayVisibleClass}`} onClick={() => this.close()} />
-        <aside class={`o-drawer o-drawer--left ${drawerVisibleClass} u-highest`} style={{ width: '320px' }}>
-          <div class="c-card">
-            <div class="c-card__body">
+        <blaze-drawer position="left" ref={ref => (this.drawerRef = ref)} dismissible>
+          <blaze-card>
+            <blaze-card-header>
+              <h2 class="c-heading u-xlarge">
+                <site-name />
+              </h2>
+            </blaze-card-header>
+            <blaze-card-body>
               <nav aria-label="Navigation panel open">
-                <button aria-label="Close navigation" class="c-button c-button--nude c-button--close" onClick={() => this.close()}>
-                  <i aria-hidden class="fas fa-times" />
-                </button>
                 <section>
                   <h3 aria-label="Open source, links to the source code" class="c-heading u-large">
                     Open Source
@@ -78,9 +79,9 @@ export class SiteNav {
 
                 {allRoutes.map(area => this.navSection(area))}
               </nav>
-            </div>
-          </div>
-        </aside>
+            </blaze-card-body>
+          </blaze-card>
+        </blaze-drawer>
       </div>
     );
   }
