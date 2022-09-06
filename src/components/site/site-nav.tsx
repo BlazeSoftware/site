@@ -4,7 +4,7 @@ import { Route } from '../routes/types';
 
 @Component({
   tag: 'site-nav',
-  styleUrl: 'site-nav.scss'
+  styleUrl: 'site-nav.scss',
 })
 export class SiteNav {
   drawerRef: any;
@@ -66,17 +66,24 @@ export class SiteNav {
                   <ul class="c-list c-list--unstyled">
                     <li class="c-list__item u-letter-box u-letter-box-xsmall">
                       <a class="c-link" href="https://github.com/BlazeSoftware/css">
-                        <i class="fab fa-css3-alt" /> CSS
+                        <i class="fab fa-css3-alt" />
+                        <span class="u-pillar-box-xsmall">CSS</span>
                       </a>
                     </li>
                     <li class="c-list__item u-letter-box u-letter-box-xsmall">
                       <a class="c-link" href="https://github.com/BlazeSoftware/atoms">
-                        <i class="fas fa-atom" /> Atoms
+                        <i class="fas fa-atom" />
+                        <span class="u-pillar-box-xsmall">Atoms</span>
+                      </a>
+                    </li>
+                    <li class="c-list__item u-letter-box u-letter-box-xsmall">
+                      <a class="c-link" href="https://theme.blazeui.com/" target="_blank">
+                        <i class="fas fa-palette" />
+                        <span class="u-pillar-box-xsmall u-gradient-text u-text--loud">Blaze Theme</span>
                       </a>
                     </li>
                   </ul>
                 </section>
-
                 {allRoutes.map(area => this.navSection(area))}
               </nav>
             </blaze-card-body>
