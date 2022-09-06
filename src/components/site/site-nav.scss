@@ -5,7 +5,7 @@ site-nav {
     display: inline-block;
     margin: 0;
     padding: 0.25em;
-    color: var(--color-2);
+    color: var(--color-text);
     text-decoration: none;
     background-color: transparent;
     border-radius: 4px;
@@ -13,7 +13,7 @@ site-nav {
   }
 
   stencil-route-link .link-active {
-    color: #fff;
+    color: var(--color-text-inverse);
     background-color: var(--color-brand);
   }
 

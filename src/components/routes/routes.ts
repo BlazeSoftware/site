@@ -374,9 +374,4 @@ export const allRoutes = [
     description: 'Override helpers',
     routes: utilsRoutes,
   },
-  {
-    title: 'Variables',
-    description: 'Fully customise Blaze',
-    routes: variablesRoutes,
-  },
 ];

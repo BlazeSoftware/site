@@ -4,6 +4,7 @@
 
 :root {
   --text-font-family-sans-serif: avenir, sans-serif;
+  --color-brand: #2c3e50;
 }
 
 body {
@@ -40,7 +41,6 @@ body {
 }
 
 .u-text {
-  color: #2c3e50;
   font-weight: 300;
 }
 
@@ -118,7 +118,7 @@ aside.o-drawer.o-drawer--right {
 }
 
 .o-grid-text {
-  background-color: #fff;
+  background-color: var(--color-background)
 }
 
 aside.o-drawer,

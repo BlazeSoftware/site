@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@blaze/atoms": "13.0.0",
-    "@blaze/css": "12.0.0",
+    "@blaze/css": "12.2.0",
     "@stencil/core": "2.17.4",
     "@stencil/postcss": "2.1.0",
     "@stencil/router": "1.0.1",
