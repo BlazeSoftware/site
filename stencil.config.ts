@@ -27,7 +27,7 @@ export const config: Config = {
       type: 'www',
       prerenderConfig: './prerender.config.ts',
       baseUrl: 'https://www.blazeui.com',
-      copy: [{ src: 'robots.txt' }],
+      copy: [{ src: 'robots.txt' }, { src: '.well-known' }],
     },
   ],
 };
