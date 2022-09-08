@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: blazeui.com
+Token: 5264f15e30aca652eef1eeabb0c13dff4a4f82c73c11272ea69d0b284bacd2f5
