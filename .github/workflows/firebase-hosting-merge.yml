@@ -21,6 +21,7 @@ jobs:
       - uses: treosh/lighthouse-ci-action@v9
         with:
           configPath: ./lighthouserc.json
+          runs: 3
           urls: |
             https://www.blazeui.com
           uploadArtifacts: true # save results as an action artifacts
