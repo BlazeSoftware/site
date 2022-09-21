@@ -20,6 +20,7 @@ jobs:
           projectId: blaze-docs
       - uses: treosh/lighthouse-ci-action@v9
         with:
+          configPath: ./lighthouserc.json
           urls: |
             https://www.blazeui.com
           uploadArtifacts: true # save results as an action artifacts

@@ -1,0 +1,9 @@
+{
+  "ci": {
+    "collect": {
+      "settings": {
+        "throttling.cpuSlowdownMultiplier": "2.1"
+      }
+    }
+  }
+}
