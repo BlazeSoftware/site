@@ -15,3 +15,9 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLAZE_DOCS }}'
           projectId: blaze-docs
+      - uses: treosh/lighthouse-ci-action@v9
+        with:
+          urls: |
+            https://www.blazeui.com
+          uploadArtifacts: true # save results as an action artifacts
+          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
