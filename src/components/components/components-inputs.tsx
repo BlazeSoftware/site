@@ -46,7 +46,7 @@ export class ComponentsInputs {
         <blaze-demo
           language="language-html"
           code={`<div class="o-field o-field--icon-left">
-  <i class="far fa-calendar-alt c-icon"></i>
+  <i class="fa-solid fa-calendar-days c-icon"></i>
   <input class="c-field" type="text">
 </div>`}
         />
@@ -55,16 +55,16 @@ export class ComponentsInputs {
           language="language-html"
           code={`<div class="o-field o-field--icon-right">
   <input class="c-field" type="text">
-  <i class="fas fa-search c-icon"></i>
+  <i class="fa-solid fa-magnifying-glass c-icon"></i>
 </div>`}
         />
 
         <blaze-demo
           language="language-html"
           code={`<div class="o-field o-field--icon-left o-field--icon-right">
-  <i class="fas fa-user c-icon u-color-brand"></i>
+  <i class="fa-solid fa-user c-icon u-color-brand"></i>
   <input class="c-field c-field--success" type="text">
-  <i class="fas fa-check c-icon u-color-green"></i>
+  <i class="fa-solid fa-check c-icon u-color-green"></i>
 </div>`}
         />
 

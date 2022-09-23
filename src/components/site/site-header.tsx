@@ -14,7 +14,7 @@ export class SiteHeader {
         <site-nav />
         <div class="u-centered u-letter-box-small">
           <a aria-label="Blaze Home Page" href="/" onFocus={() => document.querySelector('site-nav').close()}>
-            <i aria-hidden class="o-page-logo fas fa-fire fa-4x" />
+            <i aria-hidden class="o-page-logo fa-solid fa-fire-flame-curved fa-4x" />
           </a>
         </div>
       </header>

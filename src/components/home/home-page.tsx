@@ -31,7 +31,7 @@ export class LandingPage {
         <div class="o-container o-container--super u-centered">
           <div class="o-grid o-grid--wrap o-grid--xsmall-full o-grid--small-full o-grid--medium-full">
             <div class="o-grid__cell o-grid__cell--width-33 u-window-box-super">
-              <i class="fa-fw fab fa-accessible-icon fa-5x" />
+              <i class="fa-fw fa-brands fa-accessible-icon fa-5x" />
 
               <h3 class="c-heading u-xlarge">Accessibility</h3>
 
@@ -40,7 +40,7 @@ export class LandingPage {
               </p>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-window-box-super">
-              <i class="fa-fw fab fa-js-square fa-5x" />
+              <i class="fa-fw fa-brands fa-square-js fa-5x" />
 
               <h3 class="c-heading u-xlarge">Framework free</h3>
 
@@ -49,28 +49,28 @@ export class LandingPage {
               </p>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-window-box-super">
-              <i class="fa-fw fas fa-hand-paper fa-5x" />
+              <i class="fa-fw fa-solid fa-hand fa-5x" />
 
               <h3 class="c-heading u-xlarge">Opt-in</h3>
 
               <p class="c-paragraph">Blaze won't automatically take control of any of your design unless you want it to.</p>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-window-box-super">
-              <i class="fa-fw fas fa-mobile fa-5x" />
+              <i class="fa-fw fa-solid fa-mobile fa-5x" />
 
               <h3 class="c-heading u-xlarge">Responsive</h3>
 
               <p class="c-paragraph">All components are developed mobile first and work on any screen size.</p>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-letter-box-super">
-              <i class="fa-fw fas fa-cogs fa-5x" />
+              <i class="fa-fw fa-solid fa-gears fa-5x" />
 
               <h3 class="c-heading u-xlarge">Custom builds</h3>
 
               <p class="c-paragraph">In 3 easy steps you can have a custom build with easy to use variables and mixins.</p>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-letter-box-super">
-              <i class="fa-fw fas fa-code fa-5x" style={{ color: '#74748c' }} />
+              <i class="fa-fw fa-solid fa-code fa-5x" style={{ color: '#74748c' }} />
 
               <h3 class="c-heading u-xlarge">#UseThePlatform</h3>
 
@@ -82,20 +82,20 @@ export class LandingPage {
               </h2>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-letter-box-super">
-              <i class="fa-fw fab fa-github fa-5x" />
+              <i class="fa-fw fa-brands fa-github fa-5x" />
 
               <h3 class="c-heading u-xlarge">Available to everyone</h3>
 
               <p class="c-paragraph">This project is totally free. It's hosted on Github and is accessible by everyone.</p>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-letter-box-super">
-              <i class="fa-fw fas fa-gavel fa-5x" />
+              <i class="fa-fw fa-solid fa-gavel fa-5x" />
 
               <h3 class="c-heading u-xlarge">MIT Licence</h3>
               <p class="c-paragraph">You can benefit from the project however you want. In your own way.</p>
             </div>
             <div class="o-grid__cell o-grid__cell--width-33 u-letter-box-super">
-              <i class="fa-fw fas fa-code-branch fa-5x" />
+              <i class="fa-fw fa-solid fa-code-branch fa-5x" />
 
               <h3 class="c-heading u-xlarge">Contributing</h3>
 

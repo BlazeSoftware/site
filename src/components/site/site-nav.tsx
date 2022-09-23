@@ -48,7 +48,7 @@ export class SiteNav {
     return (
       <div class="u-text">
         <button aria-label="Open navigation menu" class="c-button c-button--nude o-page-header__button o-page-header__button--left" onClick={() => this.show()}>
-          <i class="fas fa-bars fa-lg" />
+          <i class="fa-solid fa-bars fa-lg" />
         </button>
         <blaze-drawer position="left" ref={ref => (this.drawerRef = ref)} dismissible>
           <blaze-card>
@@ -66,19 +66,19 @@ export class SiteNav {
                   <ul class="c-list c-list--unstyled">
                     <li class="c-list__item u-letter-box u-letter-box-xsmall">
                       <a class="c-link" href="https://github.com/BlazeSoftware/css">
-                        <i class="fab fa-css3-alt" />
+                        <i class="fa-brands fa-css3-alt" />
                         <span class="u-pillar-box-xsmall">CSS</span>
                       </a>
                     </li>
                     <li class="c-list__item u-letter-box u-letter-box-xsmall">
                       <a class="c-link" href="https://github.com/BlazeSoftware/atoms">
-                        <i class="fas fa-atom" />
+                        <i class="fa-solid fa-atom" />
                         <span class="u-pillar-box-xsmall">Atoms</span>
                       </a>
                     </li>
                     <li class="c-list__item u-letter-box u-letter-box-xsmall">
                       <a class="c-link" href="https://theme.blazeui.com/" target="_blank">
-                        <i class="fas fa-palette" />
+                        <i class="fa-solid fa-palette" />
                         <span class="u-pillar-box-xsmall u-gradient-text u-text--loud">Blaze Theme</span>
                       </a>
                     </li>
